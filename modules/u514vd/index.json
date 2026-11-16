@@ -1,0 +1,55 @@
+{
+  "name": "Sayaç Dönem Kıyas — iki dönemli karne tablosu + dönem düğmesi",
+  "description": "Rakamlar bir karne tablosunda: gösterge (ikon, etiket, not, oran çubuğu) | önceki dönem | güncel dönem | Δ değişim rozeti. Dönem düğmesi (önceki ↔ güncel) çubukları ve sütun vurgusunu çevirir. Satırda `onceki` (önceki dönem sayısı) ve desing `donem_a` / `donem_b` (dil sözlüğü) verilirse kıyas açılır; yoksa tek sütunlu karne. sayac-cubuk ve sayac-sutun-grafik tek anlık değeri çizer; bu modül iki dönemi yan yana karşılaştıran semantik bir <table> iskeletidir (Δ sütunu + dönem geçişi) — ailede tablo ve zaman kıyası kuran ilk modül (kolej «yıllar arası başarı» dili). Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "compare_arrows",
+  "category": "stats",
+  "subCategory": "period-compare",
+  "tags": [
+    "stats",
+    "table",
+    "compare",
+    "period",
+    "toggle",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "donem_a": "",
+    "donem_b": "",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+      "onek": "önek (dil sözlüğü; ör. «%»)",
+      "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+      "etiket": "etiket (dil sözlüğü, zorunlu)",
+      "metin": "kısa not (dil sözlüğü)",
+      "ikon": "Material Symbols adı",
+      "ondalik": "ondalık basamak (yoksa sayıdan)",
+      "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+    }
+  }
+}

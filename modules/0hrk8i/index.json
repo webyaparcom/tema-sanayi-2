@@ -1,0 +1,54 @@
+{
+  "name": "Ekip Destesi — üst üste kartvizitler, sıradaki öne gelir",
+  "description": "Ekip üst üste dizilmiş yatay kartvizit destesi: üstteki kart tam görünür (portre, bölüm, ad, unvan, kısa tanıtım, yazılı iletişim), arkadaki üç kart kademeli kenar verir. Sonraki düğmesi / → tuşu üstteki kartı yana atıp destenin altına sokar, önceki alttakini öne alır; «1 / 5» sayacı. JS yoksa kartlar iki sütun ızgara. Tek odaklı deste etkileşimi: ekip-kartvizit tüm kartları ızgarada aynı anda gösterir, ekip-portre-ray yatay kaydırır; burada kartlar aynı ızgara hücresinde z-ekseninde yığılır, yalnız üstteki etkileşimlidir (arkadakiler inert) — kişisel marka / kurucu ekip tanıtımında bir kişiye tam dikkat. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "style",
+  "category": "team",
+  "subCategory": "card-stack",
+  "tags": [
+    "team",
+    "card-stack",
+    "deck",
+    "business-card",
+    "interactive",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+      "unvan": "görev / unvan (dil sözlüğü)",
+      "metin": "kısa tanıtım (dil sözlüğü)",
+      "img": "portre görseli (yoksa baş harfler)",
+      "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+      "eposta": "e-posta (mailto)",
+      "telefon": "telefon (tel:)",
+      "url": "profil sayfası bağlantısı",
+      "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+    }
+  }
+}

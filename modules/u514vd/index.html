@@ -1,0 +1,148 @@
+<section class="modulex-sayac-donem-kiyas{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-sayac-donem-kiyas-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* sayac-donem-kiyas — sayac-cubuk ve sayac-sutun-grafik tek anlık değeri çizer; bu modül iki dönemi yan yana karşılaştıran semantik bir <table> iskeletidir (Δ sütunu + dönem geçişi) — ailede tablo ve zaman kıyası kuran ilk modül (kolej «yıllar arası başarı» dili). */
+  .modulex-sayac-donem-kiyas { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-sayac-donem-kiyas *, .modulex-sayac-donem-kiyas *::before, .modulex-sayac-donem-kiyas *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-sayac-donem-kiyas :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-sayac-donem-kiyas :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-sayac-donem-kiyas :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-sayac-donem-kiyas :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-sayac-donem-kiyas img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-sayac-donem-kiyas) img { height: auto; }
+  .modulex-sayac-donem-kiyas [hidden] { display: none !important; }
+  .modulex-sayac-donem-kiyas :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-sayac-donem-kiyas :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-sayac-donem-kiyas-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-sayac-donem-kiyas-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-sayac-donem-kiyas--bassiz .modulex-sayac-donem-kiyas-bas { display: none; }
+  .modulex-sayac-donem-kiyas-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-sayac-donem-kiyas-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-sayac-donem-kiyas-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-sayac-donem-kiyas-bas { max-width: 760px; }
+  .modulex-sayac-donem-kiyas-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-sayac-donem-kiyas-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-sayac-donem-kiyas-dugme:hover { transform: translateY(-2px); }
+  .modulex-sayac-donem-kiyas-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-sayac-donem-kiyas-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-sayac-donem-kiyas-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-sayac-donem-kiyas-karne { display: grid; gap: 18px; padding: clamp(18px, 3vw, 36px); border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: --kartBg--; box-shadow: 0 30px 60px -48px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-sayac-donem-kiyas-donem { display: inline-flex; justify-self: end; gap: 4px; padding: 4px; border-radius: 999px; background: color-mix(in srgb, --text-- 7%, transparent); }
+  .modulex-sayac-donem-kiyas-donem-d { min-height: 44px; padding: 8px 20px; border: 0; border-radius: 999px; background: transparent; color: --muted--; font: inherit; font-weight: 700; transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; }
+  .modulex-sayac-donem-kiyas-donem-d:hover { color: --text--; }
+  .modulex-sayac-donem-kiyas-donem-d[aria-pressed="true"] { background: --accent--; color: --accentText--; box-shadow: 0 6px 16px -8px color-mix(in srgb, --accent-- 80%, transparent); }
+  .modulex-sayac-donem-kiyas-tablo { width: 100%; border-collapse: collapse; }
+  .modulex-sayac-donem-kiyas-tablo th, .modulex-sayac-donem-kiyas-tablo td { padding: 18px 14px; border-block-end: 1px solid --cizgi--; font-weight: inherit; text-align: start; vertical-align: middle; }
+  .modulex-sayac-donem-kiyas-tablo thead th { padding-block: 10px; color: --muted--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.3s ease; }
+  .modulex-sayac-donem-kiyas-tablo tbody tr:last-child > * { border-block-end: 0; }
+  .modulex-sayac-donem-kiyas-tablo :is(.modulex-sayac-donem-kiyas-h-a, .modulex-sayac-donem-kiyas-h-b, .modulex-sayac-donem-kiyas-h-f) { width: 1%; text-align: end; white-space: nowrap; }
+  .modulex-sayac-donem-kiyas-satir { transition: background 0.25s ease; }
+  .modulex-sayac-donem-kiyas-satir:hover { background: color-mix(in srgb, --accent-- 5%, transparent); }
+  .modulex-sayac-donem-kiyas-gosterge { display: flex; align-items: center; gap: 10px; font-size: 1.05rem; font-weight: 700; }
+  .modulex-sayac-donem-kiyas-ikon { display: inline-grid; place-items: center; flex: none; width: 36px; height: 36px; border-radius: 10px; background: color-mix(in srgb, --accent-- 12%, transparent); color: --accentInk--; font-size: 20px; }
+  .modulex-sayac-donem-kiyas-not { margin-block-start: 4px; color: --muted--; font-size: 0.88rem; font-weight: 400; }
+  .modulex-sayac-donem-kiyas-iz { position: relative; display: block; height: 6px; max-width: 420px; margin-block-start: 12px; overflow: hidden; border-radius: 999px; background: --cizgi--; }
+  .modulex-sayac-donem-kiyas-dolu { display: block; width: calc(var(--b) * 100%); height: 100%; border-radius: inherit; background: --accent--; transition: width 0.9s cubic-bezier(0.2, 0.8, 0.2, 1), background 0.3s ease; }
+  .modulex-sayac-donem-kiyas--hazir:not(.modulex-sayac-donem-kiyas--gor) .modulex-sayac-donem-kiyas-dolu { width: 0; }
+  .modulex-sayac-donem-kiyas[data-donem-secili="a"] .modulex-sayac-donem-kiyas-dolu { width: calc(var(--a) * 100%); background: --muted--; }
+  .modulex-sayac-donem-kiyas-deger { font-size: clamp(1.3rem, 2.2vw, 1.75rem); font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; transition: color 0.3s ease, opacity 0.3s ease; }
+  .modulex-sayac-donem-kiyas-h-a .modulex-sayac-donem-kiyas-deger { color: --muted--; font-weight: 600; }
+  .modulex-sayac-donem-kiyas[data-donem-secili="a"] .modulex-sayac-donem-kiyas-h-a .modulex-sayac-donem-kiyas-deger { color: --text--; font-weight: 800; }
+  .modulex-sayac-donem-kiyas[data-donem-secili="a"] .modulex-sayac-donem-kiyas-h-b .modulex-sayac-donem-kiyas-deger { opacity: 0.5; }
+  .modulex-sayac-donem-kiyas[data-donem-secili="a"] thead .modulex-sayac-donem-kiyas-h-a, .modulex-sayac-donem-kiyas[data-donem-secili="b"] thead .modulex-sayac-donem-kiyas-h-b { color: --accentInk--; }
+  .modulex-sayac-donem-kiyas-ek { color: --accentInk--; font-size: 0.6em; }
+  .modulex-sayac-donem-kiyas-fark { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 999px; font-size: 0.88rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-sayac-donem-kiyas-fark .material-symbols-outlined { font-size: 18px; }
+  .modulex-sayac-donem-kiyas-fark--art { background: color-mix(in srgb, --accent-- 14%, transparent); color: --accentInk--; }
+  .modulex-sayac-donem-kiyas-fark--az, .modulex-sayac-donem-kiyas-fark--sabit { background: color-mix(in srgb, --text-- 8%, transparent); color: --muted--; }
+  [dir="rtl"] .modulex-sayac-donem-kiyas-fark .material-symbols-outlined { transform: scaleX(-1); }
+  .modulex-sayac-donem-kiyas-gizli { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  @media (max-width: 768px) {
+    .modulex-sayac-donem-kiyas-tablo thead { display: none; }
+    .modulex-sayac-donem-kiyas-tablo, .modulex-sayac-donem-kiyas-tablo tbody { display: block; }
+    .modulex-sayac-donem-kiyas-satir { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; align-items: end; gap: 8px 22px; padding-block: 16px; border-block-end: 1px solid --cizgi--; }
+    .modulex-sayac-donem-kiyas-tablo tbody tr:last-child { border-block-end: 0; }
+    .modulex-sayac-donem-kiyas-tablo .modulex-sayac-donem-kiyas-satir > * { width: auto; padding: 0; border: 0; text-align: start; }
+    .modulex-sayac-donem-kiyas-satir > th { grid-column: 1 / -1; }
+    .modulex-sayac-donem-kiyas-satir > td[data-baslik]::before { content: attr(data-baslik); display: block; color: --muted--; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+    .modulex-sayac-donem-kiyas-donem { justify-self: stretch; }
+    .modulex-sayac-donem-kiyas-donem-d { flex: 1; padding-inline: 10px; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-sayac-donem-kiyas :is(.modulex-sayac-donem-kiyas-baslik, .modulex-sayac-donem-kiyas-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-sayac-donem-kiyas-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-sayac-donem-kiyas { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-sayac-donem-kiyas *, .modulex-sayac-donem-kiyas *::before, .modulex-sayac-donem-kiyas *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-sayac-donem-kiyas";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const gozlem = (s, P, az) => {
+        const gor = () => s.classList.add(P + "--gor");
+        s.classList.add(P + "--hazir");
+        if (az || !("IntersectionObserver" in window)) { gor(); return; }
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { gor(); io.disconnect(); } });
+        }, { threshold: 0.15 });
+        io.observe(s);
+      };
+    const sayac = (s, P, az) => {
+        const el = [...s.querySelectorAll("[data-hedef]")];
+        if (!el.length || az || !("IntersectionObserver" in window)) return;
+        const dl = document.documentElement.lang || undefined;
+        const oynat = () => el.forEach((e) => {
+          const h = Number(e.dataset.hedef);
+          const od = Number(e.dataset.ondalik) || 0;
+          const son = e.textContent;
+          if (!Number.isFinite(h)) return;
+          let f;
+          try { f = new Intl.NumberFormat(dl, { minimumFractionDigits: od, maximumFractionDigits: od }); } catch (x) { return; }
+          const t0 = performance.now();
+          const adim = (t) => {
+            const p = Math.min(1, (t - t0) / 1300);
+            e.textContent = p < 1 ? f.format(h * (1 - Math.pow(1 - p, 3))) : son;
+            if (p < 1) requestAnimationFrame(adim);
+          };
+          requestAnimationFrame(adim);
+        });
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { oynat(); io.disconnect(); } });
+        }, { threshold: 0.3 });
+        io.observe(s);
+      };
+    const donem = (s) => {
+        const g = s.querySelector("[data-donem-grup]");
+        if (!g) return;
+        const b = [...g.querySelectorAll("[data-donem]")];
+        if (b.length < 2) return;
+        g.hidden = false;
+        const sec = (v) => {
+          b.forEach((x) => x.setAttribute("aria-pressed", String(x.dataset.donem === v)));
+          s.dataset.donemSecili = v;
+        };
+        b.forEach((x) => x.addEventListener("click", () => sec(x.dataset.donem)));
+        sec("b");
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      gozlem(s, P, az);
+      sayac(s, P, az);
+      donem(s, P, az);
+    });
+  })();
+</script>

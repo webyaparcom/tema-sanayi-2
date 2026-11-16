@@ -1,0 +1,89 @@
+<section class="modulex-acilis-gosterge{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-acilis-gosterge-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* acilis-gosterge — sayac-gosterge sayaç bölümüdür, acilis-istatistik-serit sayıları yatay şeride dizer; bu modül açılışın odağına tek bir oran kadranı koyar (conic-gradient halka + çentikler, @property ile dolan oran, Intl yüzde) ve maddeleri kadranın altında durum kartlarına çevirir. */
+  .modulex-acilis-gosterge { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-acilis-gosterge *, .modulex-acilis-gosterge *::before, .modulex-acilis-gosterge *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-acilis-gosterge :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-acilis-gosterge :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-acilis-gosterge :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-acilis-gosterge :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-acilis-gosterge img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-acilis-gosterge) img { height: auto; }
+  .modulex-acilis-gosterge [hidden] { display: none !important; }
+  .modulex-acilis-gosterge :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-acilis-gosterge :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-acilis-gosterge-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-acilis-gosterge-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-acilis-gosterge--bassiz .modulex-acilis-gosterge-bas { display: none; }
+  .modulex-acilis-gosterge-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-acilis-gosterge-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-acilis-gosterge-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-acilis-gosterge-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-acilis-gosterge-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-acilis-gosterge-dugme:hover { transform: translateY(-2px); }
+  .modulex-acilis-gosterge-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-acilis-gosterge-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-acilis-gosterge-dugme .material-symbols-outlined { font-size: 20px; }
+
+  @property --modulex-acilis-gosterge-dol { syntax: "<number>"; inherits: true; initial-value: 0; }
+  .modulex-acilis-gosterge-duzen { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
+  .modulex-acilis-gosterge-duzen--tek { grid-template-columns: minmax(0, 1fr); max-width: 820px; }
+  .modulex-acilis-gosterge-yazi { display: grid; gap: 18px; justify-items: start; min-width: 0; }
+  .modulex-acilis-gosterge-canli { display: inline-flex; align-items: center; gap: 8px; padding-block: 6px; padding-inline: 12px 14px; border-radius: 999px; background-color: color-mix(in srgb, --accent-- 12%, transparent); color: --accentInk--; font-size: 0.85rem; font-weight: 750; }
+  .modulex-acilis-gosterge-canli::before { content: ""; inline-size: 9px; block-size: 9px; border-radius: 50%; background-color: --accent--; animation: modulex-acilis-gosterge-nab 1.6s ease-out infinite; }
+  @keyframes modulex-acilis-gosterge-nab { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, --accent-- 60%, transparent); } 100% { box-shadow: 0 0 0 10px transparent; } }
+  .modulex-acilis-gosterge-canli .modulex-acilis-gosterge-rikon { font-size: 18px; }
+  .modulex-acilis-gosterge-pano { display: grid; justify-items: center; gap: clamp(20px, 3vw, 32px); min-width: 0; padding: clamp(20px, 3.4vw, 40px); border: 1px solid --cizgi--; border-radius: calc(--yuvarlak-- * 1.4); background-color: --kartBg--; }
+  .modulex-acilis-gosterge-kadran { --modulex-acilis-gosterge-dol: var(--yuzde); position: relative; display: grid; place-items: center; inline-size: min(100%, 340px); aspect-ratio: 1; border-radius: 50%; animation: modulex-acilis-gosterge-dol 1.8s 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+  @keyframes modulex-acilis-gosterge-dol { from { --modulex-acilis-gosterge-dol: 0; } }
+  .modulex-acilis-gosterge-kadran::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from -120deg, --accent-- calc(var(--modulex-acilis-gosterge-dol) * 2.4deg), color-mix(in srgb, --text-- 10%, transparent) 0 240deg, transparent 0); -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 24px), black calc(100% - 23px)); mask: radial-gradient(farthest-side, transparent calc(100% - 24px), black calc(100% - 23px)); }
+  .modulex-acilis-gosterge-centik { position: absolute; inset: 32px; border-radius: 50%; background: repeating-conic-gradient(from -120deg, color-mix(in srgb, --text-- 40%, transparent) 0 0.8deg, transparent 0.8deg 12deg); -webkit-mask: conic-gradient(from -120deg, black 0 241deg, transparent 0), radial-gradient(farthest-side, transparent calc(100% - 10px), black calc(100% - 9px)); -webkit-mask-composite: source-in; mask: conic-gradient(from -120deg, black 0 241deg, transparent 0), radial-gradient(farthest-side, transparent calc(100% - 10px), black calc(100% - 9px)); mask-composite: intersect; }
+  .modulex-acilis-gosterge-kic { display: grid; justify-items: center; gap: 4px; text-align: center; }
+  .modulex-acilis-gosterge-kust { color: --muted--; font-size: 0.82rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-acilis-gosterge-kdeger { font-family: var(--mx-font-heading, inherit); font-size: clamp(3rem, 7vw, 4.6rem); font-weight: 800; line-height: 1; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+  .modulex-acilis-gosterge-kalt { color: --muted--; font-size: 0.92rem; }
+  .modulex-acilis-gosterge-durumlar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; inline-size: 100%; }
+  .modulex-acilis-gosterge-durum { display: flex; align-items: center; gap: 12px; padding: 14px; border-radius: 14px; background-color: --bg--; box-shadow: inset 0 0 0 1px --cizgi--; animation: modulex-acilis-gosterge-gir 0.7s calc(var(--i) * 0.1s + 0.5s) ease both; transition: box-shadow 0.25s ease, transform 0.25s ease; }
+  .modulex-acilis-gosterge-durum:hover { box-shadow: inset 0 0 0 2px --accent--; transform: translateY(-2px); }
+  .modulex-acilis-gosterge-dikon { display: inline-grid; flex: none; place-items: center; inline-size: 40px; block-size: 40px; border-radius: 10px; background-color: --accent--; color: --accentText--; font-size: 22px; }
+  .modulex-acilis-gosterge-dyazi { display: grid; min-width: 0; }
+  .modulex-acilis-gosterge-ddeger { font-size: 1.25rem; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  .modulex-acilis-gosterge-dmetin { color: --muted--; font-size: 0.85rem; line-height: 1.3; }
+  @media (max-width: 1024px) {
+    .modulex-acilis-gosterge-duzen { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .modulex-acilis-gosterge-kadran { inline-size: min(100%, 280px); }
+    .modulex-acilis-gosterge-kadran::before { -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 18px), black calc(100% - 17px)); mask: radial-gradient(farthest-side, transparent calc(100% - 18px), black calc(100% - 17px)); }
+    .modulex-acilis-gosterge-centik { inset: 26px; }
+  }
+  .modulex-acilis-gosterge-h1 { font-family: var(--mx-font-heading, inherit); font-size: clamp(2.3rem, 5.2vw, 4.2rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; text-wrap: balance; }
+  .modulex-acilis-gosterge-metin { color: --muted--; font-size: clamp(1.02rem, 1.3vw, 1.18rem); line-height: 1.7; max-width: 62ch; }
+  .modulex-acilis-gosterge-ogeler { display: flex; flex-wrap: wrap; gap: 14px 30px; }
+  .modulex-acilis-gosterge-oge { display: flex; align-items: center; gap: 10px; }
+  .modulex-acilis-gosterge-oikon { color: --accentInk--; font-size: 22px; }
+  .modulex-acilis-gosterge-odeger { font-size: 1.45rem; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+  .modulex-acilis-gosterge-ometin { color: --muted--; font-size: 0.95rem; }
+  .modulex-acilis-gosterge-obag { color: inherit; text-underline-offset: 3px; }
+  .modulex-acilis-gosterge-gir { animation: modulex-acilis-gosterge-gir 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+  @keyframes modulex-acilis-gosterge-gir { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-acilis-gosterge-h1 { letter-spacing: 0; line-height: 1.3; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-acilis-gosterge :is(.modulex-acilis-gosterge-baslik, .modulex-acilis-gosterge-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-acilis-gosterge-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-acilis-gosterge { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-acilis-gosterge *, .modulex-acilis-gosterge *::before, .modulex-acilis-gosterge *::after { animation: none !important; transition: none !important; }
+  }
+</style>

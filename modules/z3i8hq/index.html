@@ -1,0 +1,90 @@
+<section class="modulex-surec-uretim-bant{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-surec-uretim-bant-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* surec-uretim-bant — surec-gonderi-yolculuk kaydırmaya bağlı tek araçlı bir yol, surec-yol-haritasi zikzak duraklı rotadır; bu modülde sürekli akan konveyör bandı, makinelerin arkasından geçen koliler ve istasyon (makine) kutuları var — fabrika hattı metaforu, kaydırma bağımlılığı yok. */
+  .modulex-surec-uretim-bant { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-surec-uretim-bant *, .modulex-surec-uretim-bant *::before, .modulex-surec-uretim-bant *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-surec-uretim-bant :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-surec-uretim-bant :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-surec-uretim-bant :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-surec-uretim-bant :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-surec-uretim-bant img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-surec-uretim-bant) img { height: auto; }
+  .modulex-surec-uretim-bant [hidden] { display: none !important; }
+  .modulex-surec-uretim-bant :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-surec-uretim-bant :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-surec-uretim-bant-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-surec-uretim-bant-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-surec-uretim-bant--bassiz .modulex-surec-uretim-bant-bas { display: none; }
+  .modulex-surec-uretim-bant-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-surec-uretim-bant-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-surec-uretim-bant-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-surec-uretim-bant-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-surec-uretim-bant-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-surec-uretim-bant-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-surec-uretim-bant-dugme:hover { transform: translateY(-2px); }
+  .modulex-surec-uretim-bant-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-surec-uretim-bant-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-surec-uretim-bant-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-surec-uretim-bant-tesis { position: relative; }
+  .modulex-surec-uretim-bant-kayis { position: absolute; inset-inline: 0; inset-block-start: 126px; z-index: 1; height: 20px; border-radius: 999px; background-color: color-mix(in srgb, --text-- 62%, --bg--); background-image: repeating-linear-gradient(90deg, transparent 0 14px, color-mix(in srgb, --text-- 30%, transparent) 14px 28px); background-size: 28px 100%; box-shadow: inset 0 3px 0 color-mix(in srgb, --bg-- 25%, transparent), 0 10px 18px -12px color-mix(in srgb, --text-- 70%, transparent); animation: modulex-surec-uretim-bant-akis 1.1s linear infinite; }
+  [dir="rtl"] .modulex-surec-uretim-bant-kayis { animation-direction: reverse; }
+  .modulex-surec-uretim-bant-kayis::before, .modulex-surec-uretim-bant-kayis::after { content: ""; position: absolute; inset-block-start: 50%; width: 30px; height: 30px; margin-block-start: -15px; border: 5px solid color-mix(in srgb, --text-- 62%, --bg--); border-radius: 50%; background: --bg--; }
+  .modulex-surec-uretim-bant-kayis::before { inset-inline-start: -12px; }
+  .modulex-surec-uretim-bant-kayis::after { inset-inline-end: -12px; }
+  .modulex-surec-uretim-bant-koli { position: absolute; inset-block-end: 100%; inset-inline-start: calc(12% + var(--d) * 33%); width: 26px; height: 20px; border-radius: 4px; background: --accent--; box-shadow: inset 0 -6px 0 color-mix(in srgb, --text-- 18%, transparent); animation: modulex-surec-uretim-bant-tasi 9s linear infinite; animation-delay: calc(var(--d) * -3s); }
+  @keyframes modulex-surec-uretim-bant-akis { to { background-position: 28px 0; } }
+  @keyframes modulex-surec-uretim-bant-tasi { from { inset-inline-start: 0%; } to { inset-inline-start: calc(100% - 26px); } }
+  .modulex-surec-uretim-bant-hat { position: relative; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 18px; }
+  .modulex-surec-uretim-bant-istasyon { position: relative; display: grid; grid-template-rows: 116px auto; row-gap: 52px; justify-items: center; text-align: center; }
+  .modulex-surec-uretim-bant-makine { position: relative; z-index: 2; display: grid; place-items: center; align-self: end; width: 96px; height: 96px; border: 3px solid color-mix(in srgb, --text-- 62%, --bg--); border-radius: 16px 16px 6px 6px; background: --kartBg--; color: --accentInk--; transition: transform 0.35s ease, border-color 0.35s ease; }
+  .modulex-surec-uretim-bant-makine::after { content: ""; position: absolute; inset-block-start: 100%; inset-inline: 30%; height: 14px; border-radius: 0 0 6px 6px; background: color-mix(in srgb, --text-- 62%, --bg--); }
+  .modulex-surec-uretim-bant-istasyon:hover .modulex-surec-uretim-bant-makine { border-color: --accent--; transform: translateY(-6px); }
+  .modulex-surec-uretim-bant-mikon { font-size: 40px; transition: transform 0.6s ease; }
+  .modulex-surec-uretim-bant-istasyon:hover .modulex-surec-uretim-bant-mikon { transform: rotate(-12deg) scale(1.08); }
+  .modulex-surec-uretim-bant-ino { position: absolute; inset-block-start: -12px; inset-inline-end: -14px; display: grid; place-items: center; min-width: 34px; height: 34px; padding-inline: 6px; border-radius: 999px; background: --accent--; color: --accentText--; font-size: 0.85rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-surec-uretim-bant-iskart { position: relative; display: grid; justify-items: center; align-content: start; gap: 6px; width: 100%; padding: 18px 16px 20px; border-block-start: 4px solid --accent--; border-radius: 4px 4px --yuvarlak-- --yuvarlak--; background: --kartBg--; transition: box-shadow 0.3s ease; }
+  .modulex-surec-uretim-bant-istasyon:hover .modulex-surec-uretim-bant-iskart { box-shadow: 0 18px 32px -26px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-surec-uretim-bant-iskart .modulex-surec-uretim-bant-kbaslik { font-size: 1.06rem; font-weight: 750; }
+  .modulex-surec-uretim-bant-iskart .modulex-surec-uretim-bant-kmetin { color: --muted--; font-size: 0.9rem; }
+  .modulex-surec-uretim-bant-iskart .modulex-surec-uretim-bant-sure { justify-self: center; }
+  @media (max-width: 768px) {
+    .modulex-surec-uretim-bant-kayis { inset-block: 8px; inset-inline: 31px auto; width: 18px; height: auto; background-image: repeating-linear-gradient(180deg, transparent 0 14px, color-mix(in srgb, --text-- 30%, transparent) 14px 28px); background-size: 100% 28px; animation-name: modulex-surec-uretim-bant-akis-d; }
+    .modulex-surec-uretim-bant-kayis::before, .modulex-surec-uretim-bant-kayis::after { display: none; }
+    .modulex-surec-uretim-bant-koli { display: none; }
+    .modulex-surec-uretim-bant-hat { grid-auto-flow: row; gap: 18px; }
+    .modulex-surec-uretim-bant-istasyon { grid-template-rows: none; grid-template-columns: 80px minmax(0, 1fr); column-gap: 14px; justify-items: stretch; align-items: start; text-align: start; }
+    .modulex-surec-uretim-bant-makine { align-self: start; justify-self: center; width: 64px; height: 64px; border-radius: 14px; }
+    .modulex-surec-uretim-bant-makine::after { display: none; }
+    .modulex-surec-uretim-bant-mikon { font-size: 30px; }
+    .modulex-surec-uretim-bant-ino { min-width: 28px; height: 28px; font-size: 0.75rem; }
+    .modulex-surec-uretim-bant-iskart { justify-items: start; border-block-start: 0; border-inline-start: 4px solid --accent--; border-radius: 4px --yuvarlak-- --yuvarlak-- 4px; }
+    .modulex-surec-uretim-bant-iskart .modulex-surec-uretim-bant-sure { justify-self: start; }
+  }
+  @keyframes modulex-surec-uretim-bant-akis-d { to { background-position: 0 28px; } }
+  .modulex-surec-uretim-bant-sure { display: inline-flex; align-items: center; gap: 6px; justify-self: start; width: fit-content; padding: 4px 12px; border-radius: 999px; background: color-mix(in srgb, --accent-- 12%, transparent); color: --text--; font-size: 0.85rem; font-weight: 600; }
+  .modulex-surec-uretim-bant-sure .material-symbols-outlined { font-size: 18px; color: --accentInk--; }
+  .modulex-surec-uretim-bant-etiket { color: --accentInk--; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  .modulex-surec-uretim-bant-bag { color: inherit; text-decoration: none; }
+  .modulex-surec-uretim-bant-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-surec-uretim-bant-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-surec-uretim-bant :is(.modulex-surec-uretim-bant-baslik, .modulex-surec-uretim-bant-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-surec-uretim-bant-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-surec-uretim-bant { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-surec-uretim-bant *, .modulex-surec-uretim-bant *::before, .modulex-surec-uretim-bant *::after { animation: none !important; transition: none !important; }
+  }
+</style>

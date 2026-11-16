@@ -1,0 +1,141 @@
+{
+  "data": [
+    {
+      "id": "mqcgqugnmz",
+      "name": {
+        "tr": "Üretim",
+        "en": "Production",
+        "ar": "الإنتاج"
+      },
+      "description": {
+        "tr": "Döküm, işleme, boya ve sevkiyat kabiliyetleri.",
+        "en": "Casting, machining, paint and dispatch capabilities.",
+        "ar": "قدرات الصب والتشغيل والطلاء والشحن."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "p1zjqv",
+          "z3i8hq",
+          "1u1j1g"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Company",
+        "ar": "الشركة"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "e1w5a4",
+          "0hrk8i",
+          "u514vd"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "2008’den bugüne büyüme, ekip ve dönem karnesi (kurgusal).",
+        "en": "Growth since 2008, the team and the period scorecard (fictional).",
+        "ar": "النمو منذ 2008 والفريق وبطاقة أداء الفترة (افتراضي)."
+      }
+    },
+    {
+      "id": "qo05yfnxjx",
+      "name": {
+        "tr": "Ekip",
+        "en": "Team",
+        "ar": "الفريق"
+      },
+      "description": {
+        "tr": "Sizi karşılayan çalışanlarımız.",
+        "en": "The staff who welcomes you.",
+        "ar": "الموظفون الذين يستقبلونكم."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "0hrk8i",
+          "1u1j1g"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "xyhw4126wx",
+      "name": {
+        "tr": "Referanslar",
+        "en": "References",
+        "ar": "المرجعيات"
+      },
+      "description": {
+        "tr": "İş ortaklarımız ve müşteri yorumlarımız (kurgusal).",
+        "en": "Our partners and customer reviews (fictional).",
+        "ar": "شركاؤنا وتقييمات عملائنا (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "obd6w8",
+          "1u1j1g"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "8g5znj",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Teklif çizelgesi, adres ve çalışma saatleri.",
+        "en": "Quote sheet, address and working hours.",
+        "ar": "جدول طلب العرض والعنوان وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

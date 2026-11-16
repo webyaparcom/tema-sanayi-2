@@ -1,0 +1,103 @@
+<footer class="modulex-alt-genisleyen-sutun{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-alt-genisleyen-sutun-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</footer>
+
+<style>
+  /* alt-genisleyen-sutun — Sütunlar sabit genişlikte durmaz, ilgiye göre büyür: flex-grow geçişi + :has ile «biri açılınca varsayılan kapanır», kapalı panel içeriği görünmez ve odak dışı kalır ama panel tabindex ile odaklanınca açılır — JS gerekmez; showroom vitrini gibi mobilya, banyo, otel ve mağaza siteleri için. */
+  .modulex-alt-genisleyen-sutun { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-alt-genisleyen-sutun *, .modulex-alt-genisleyen-sutun *::before, .modulex-alt-genisleyen-sutun *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-alt-genisleyen-sutun :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-alt-genisleyen-sutun :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-alt-genisleyen-sutun :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-alt-genisleyen-sutun :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-alt-genisleyen-sutun img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-alt-genisleyen-sutun) img { height: auto; }
+  .modulex-alt-genisleyen-sutun [hidden] { display: none !important; }
+  .modulex-alt-genisleyen-sutun :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-alt-genisleyen-sutun :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-alt-genisleyen-sutun-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-alt-genisleyen-sutun-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-alt-genisleyen-sutun--bassiz .modulex-alt-genisleyen-sutun-bas { display: none; }
+  .modulex-alt-genisleyen-sutun-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-alt-genisleyen-sutun-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-alt-genisleyen-sutun-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-alt-genisleyen-sutun-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-alt-genisleyen-sutun-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-alt-genisleyen-sutun-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-genisleyen-sutun-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-alt-genisleyen-sutun-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-alt-genisleyen-sutun-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-alt-genisleyen-sutun-bag { color: inherit; text-decoration: none; transition: color 0.2s ease; }
+  .modulex-alt-genisleyen-sutun-bag:hover { color: --accentInk--; text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-alt-genisleyen-sutun-bag[aria-current="page"] { color: --accentInk--; font-weight: 700; }
+  .modulex-alt-genisleyen-sutun-logo { display: inline-flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+  .modulex-alt-genisleyen-sutun-logo img { width: auto; max-height: --logoH--; }
+  .modulex-alt-genisleyen-sutun-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.4rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-alt-genisleyen-sutun-bbaslik { margin-block-end: 14px; color: --accentInk--; font-size: 0.8rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-alt-genisleyen-sutun-sayfalar, .modulex-alt-genisleyen-sutun-baglantilar, .modulex-alt-genisleyen-sutun-iletisim, .modulex-alt-genisleyen-sutun-yasal { display: grid; gap: 9px; }
+  .modulex-alt-genisleyen-sutun-il { display: flex; align-items: flex-start; gap: 10px; }
+  .modulex-alt-genisleyen-sutun-il-ic { display: grid; gap: 2px; }
+  .modulex-alt-genisleyen-sutun-il-etiket { color: --muted--; font-size: 0.8rem; }
+  .modulex-alt-genisleyen-sutun-il-ikon { flex: none; color: --accentInk--; font-size: 20px; }
+  .modulex-alt-genisleyen-sutun-saatler { display: grid; gap: 6px; }
+  .modulex-alt-genisleyen-sutun-saat { display: flex; justify-content: space-between; gap: 16px; }
+  .modulex-alt-genisleyen-sutun-saat dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .modulex-alt-genisleyen-sutun-sosyal { display: flex; flex-wrap: wrap; gap: 10px; }
+  .modulex-alt-genisleyen-sutun-sosyal-a { display: inline-grid; place-items: center; width: 42px; height: 42px; border: 1px solid --cizgi--; border-radius: 50%; color: inherit; font-size: 18px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease; }
+  .modulex-alt-genisleyen-sutun-sosyal-a:hover { border-color: --accent--; background: --accent--; color: --accentText--; transform: translateY(-2px); }
+  .modulex-alt-genisleyen-sutun-hakkinda { max-width: 46ch; color: --muted--; }
+  .modulex-alt-genisleyen-sutun-telif { display: flex; flex-wrap: wrap; gap: 4px 14px; color: --muted--; font-size: 0.9rem; }
+  .modulex-alt-genisleyen-sutun-dil:empty { display: none; }
+  .modulex-alt-genisleyen-sutun-yukari { display: inline-grid; place-items: center; flex: none; width: 46px; height: 46px; border-radius: 50%; background: --accent--; color: --accentText--; text-decoration: none; transition: transform 0.25s ease; }
+  .modulex-alt-genisleyen-sutun-yukari:hover { transform: translateY(-3px); }
+  .modulex-alt-genisleyen-sutun-bulten { display: grid; gap: 8px; }
+  .modulex-alt-genisleyen-sutun-nl-etiket { font-size: 0.9rem; font-weight: 700; }
+  .modulex-alt-genisleyen-sutun-nl-satir { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-alt-genisleyen-sutun-nl-girdi { flex: 1 1 200px; min-width: 0; min-height: 48px; padding: 10px 18px; border: 1px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; }
+  .modulex-alt-genisleyen-sutun-nl-dugme { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --accent--; color: --accentText--; font: inherit; font-weight: 700; transition: transform 0.2s ease; }
+  .modulex-alt-genisleyen-sutun-nl-dugme:hover { transform: translateY(-2px); }
+  .modulex-alt-genisleyen-sutun-nl-dugme .material-symbols-outlined { font-size: 18px; }
+  .modulex-alt-genisleyen-sutun-nl-durum:empty { display: none; }
+  .modulex-alt-genisleyen-sutun-nl-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; }
+  .modulex-alt-genisleyen-sutun-nl-metin { color: --muted--; }
+
+  .modulex-alt-genisleyen-sutun-gs-sira { display: flex; gap: 10px; min-height: 340px; }
+  .modulex-alt-genisleyen-sutun-gs-panel { position: relative; display: flex; flex: 1 1 0; min-width: 0; overflow: hidden; border-radius: --yuvarlak--; background: --kartBg--; box-shadow: inset 0 0 0 1px --cizgi--; transition: flex-grow 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), background-color 0.4s ease; }
+  .modulex-alt-genisleyen-sutun-gs-panel--acik, .modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within) { flex-grow: 4; background-color: --bg--; }
+  .modulex-alt-genisleyen-sutun-gs-sira:has(.modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within)) .modulex-alt-genisleyen-sutun-gs-panel--acik:not(:hover, :focus-within) { flex-grow: 1; background-color: --kartBg--; }
+  .modulex-alt-genisleyen-sutun-gs-panel::after { content: ""; position: absolute; inset-block-start: 0; inset-inline: 0; height: 4px; background: --accent--; transform: scaleX(0); transition: transform 0.5s ease; }
+  .modulex-alt-genisleyen-sutun-gs-panel--acik::after, .modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within)::after { transform: scaleX(1); }
+  .modulex-alt-genisleyen-sutun-gs-sira:has(.modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within)) .modulex-alt-genisleyen-sutun-gs-panel--acik:not(:hover, :focus-within)::after { transform: scaleX(0); }
+  .modulex-alt-genisleyen-sutun-gs-serit { display: flex; flex: none; flex-direction: column; align-items: center; justify-content: space-between; gap: 16px; width: 58px; padding-block: 20px; border-inline-end: 1px solid --cizgi--; }
+  .modulex-alt-genisleyen-sutun-gs-no { color: --accentInk--; font-size: 0.85rem; font-weight: 900; font-variant-numeric: tabular-nums; }
+  .modulex-alt-genisleyen-sutun-gs-dikey { writing-mode: vertical-rl; transform: rotate(180deg); font-family: var(--mx-font-heading, inherit); font-size: 1rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+  .modulex-alt-genisleyen-sutun-gs-ic { display: grid; align-content: start; gap: 16px; flex: 1 0 260px; padding: 26px 24px; visibility: hidden; transform: translateY(10px); transition: visibility 0s linear 0.3s, transform 0.4s ease; }
+  .modulex-alt-genisleyen-sutun-gs-panel--acik .modulex-alt-genisleyen-sutun-gs-ic, .modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within) .modulex-alt-genisleyen-sutun-gs-ic { visibility: visible; transform: none; transition-delay: 0.15s; }
+  .modulex-alt-genisleyen-sutun-gs-sira:has(.modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within)) .modulex-alt-genisleyen-sutun-gs-panel--acik:not(:hover, :focus-within) .modulex-alt-genisleyen-sutun-gs-ic { visibility: hidden; transform: translateY(10px); }
+  .modulex-alt-genisleyen-sutun-gs-dip { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-block-start: 24px; }
+  .modulex-alt-genisleyen-sutun-gs-dip .modulex-alt-genisleyen-sutun-telif { margin-inline-end: auto; }
+  .modulex-alt-genisleyen-sutun-gs-yasal { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 0.9rem; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-genisleyen-sutun-gs-dikey { letter-spacing: 0; }
+  @media (max-width: 768px) {
+    .modulex-alt-genisleyen-sutun-gs-sira { flex-direction: column; min-height: 0; }
+    .modulex-alt-genisleyen-sutun-gs-panel, .modulex-alt-genisleyen-sutun-gs-panel--acik, .modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within) { flex: none; }
+    .modulex-alt-genisleyen-sutun-gs-ic, .modulex-alt-genisleyen-sutun-gs-sira:has(.modulex-alt-genisleyen-sutun-gs-panel:is(:hover, :focus-within)) .modulex-alt-genisleyen-sutun-gs-panel--acik:not(:hover, :focus-within) .modulex-alt-genisleyen-sutun-gs-ic { flex: 1 1 auto; min-width: 0; visibility: visible; transform: none; }
+    .modulex-alt-genisleyen-sutun-gs-serit { width: 48px; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-genisleyen-sutun :is(.modulex-alt-genisleyen-sutun-baslik, .modulex-alt-genisleyen-sutun-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-alt-genisleyen-sutun-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-alt-genisleyen-sutun { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-alt-genisleyen-sutun *, .modulex-alt-genisleyen-sutun *::before, .modulex-alt-genisleyen-sutun *::after { animation: none !important; transition: none !important; }
+  }
+</style>

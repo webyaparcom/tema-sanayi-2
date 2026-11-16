@@ -1,0 +1,41 @@
+{
+  "id": "mqcgqugnmz",
+  "name": {
+    "tr": "Üretim",
+    "en": "Production",
+    "ar": "الإنتاج"
+  },
+  "description": {
+    "tr": "Döküm, işleme, boya ve sevkiyat kabiliyetleri.",
+    "en": "Casting, machining, paint and dispatch capabilities.",
+    "ar": "قدرات الصب والتشغيل والطلاء والشحن."
+  },
+  "keyword": {
+    "tr": "Üretim",
+    "en": "Production",
+    "ar": "الإنتاج"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "p1zjqv",
+      "z3i8hq",
+      "1u1j1g"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Üretim",
+    "en": "Production",
+    "ar": "الإنتاج"
+  },
+  "date": "2026-11-16T18:02:07.967Z",
+  "update": "2026-11-16T18:08:54.062Z"
+}

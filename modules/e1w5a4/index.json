@@ -1,0 +1,51 @@
+{
+  "name": "Zaman Büyüme Eğrisi — değer eğrisi üzerinde kilometre taşları",
+  "description": "Üstte SVG büyüme eğrisi (alan dolgulu, kesik yatay ızgara): her dönem eğri üzerinde yıl etiketli bir nokta; altta aynı sırayla numaralı kartlar — yıl, büyük değer + birim (sayfa diliyle), başlık, metin. Karta ya da noktaya gelince ikisi birlikte vurgulanır; görünür olunca eğri soldan çizilir. Veride `deger` (+ `birim`) yoksa eğri yalnız biçimsel yükselir, değer satırı basılmaz. RTL'de eğri aynalanır. zaman-merdiven büyümeyi basamak yüksekliğiyle, zaman-ilerleme kaydırma çizgisiyle gösterir; zaman-buyume-egri veri görselleştirmesidir: gerçek değerlerle ölçeklenen eğri/alan grafiği, noktalara bağlı numaralı kartlar ve nokta↔kart vurgu eşlemesi — üretim/şube/ciro büyümesi. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "show_chart",
+  "category": "timeline",
+  "subCategory": "growth-curve",
+  "tags": [
+    "timeline",
+    "chart",
+    "curve",
+    "values",
+    "svg",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+      "baslik": "dil sözlüğü (zorunlu)",
+      "metin": "dil sözlüğü",
+      "ikon": "Material Symbols adı",
+      "img": "görsel yolu (destekleyen yerleşimde)",
+      "url": "iç/dış bağlantı"
+    }
+  }
+}

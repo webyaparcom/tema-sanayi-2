@@ -1,0 +1,123 @@
+<section class="modulex-ozellik-kart-deste{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ozellik-kart-deste-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* ozellik-kart-deste — ozellik-sekme-gorsel tek özelliği sekmeyle, ozellik-rozet-serit çekmeceyle açar; bu modülde özellikler fiziksel bir kart destesidir — yığın derinliği (kaydırma + dönüş), fırlatma hareketi ve döngüsel sıra; aynı anda tek kart okunur, sekme/çekmece yok. */
+  .modulex-ozellik-kart-deste { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ozellik-kart-deste *, .modulex-ozellik-kart-deste *::before, .modulex-ozellik-kart-deste *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ozellik-kart-deste :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ozellik-kart-deste :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ozellik-kart-deste :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ozellik-kart-deste :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ozellik-kart-deste img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ozellik-kart-deste) img { height: auto; }
+  .modulex-ozellik-kart-deste [hidden] { display: none !important; }
+  .modulex-ozellik-kart-deste :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ozellik-kart-deste :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ozellik-kart-deste-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ozellik-kart-deste-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ozellik-kart-deste--bassiz .modulex-ozellik-kart-deste-bas { display: none; }
+  .modulex-ozellik-kart-deste-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ozellik-kart-deste-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ozellik-kart-deste-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ozellik-kart-deste-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-ozellik-kart-deste-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ozellik-kart-deste-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ozellik-kart-deste-dugme:hover { transform: translateY(-2px); }
+  .modulex-ozellik-kart-deste-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ozellik-kart-deste-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ozellik-kart-deste-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ozellik-kart-deste-masa { display: grid; justify-items: center; gap: 28px; }
+  .modulex-ozellik-kart-deste-deste { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 18px; width: 100%; }
+  .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-deste { --yon: 1; grid-template-columns: minmax(0, 1fr); width: min(100%, 460px); padding-block-end: 36px; padding-inline-end: 40px; }
+  [dir="rtl"] .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-deste { --yon: -1; }
+  .modulex-ozellik-kart-deste-dkart { display: grid; align-content: start; gap: 14px; padding: 26px; border: 1px solid --cizgi--; border-radius: 22px; background: --kartBg--; box-shadow: 0 18px 34px -26px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-dkart { grid-area: 1 / 1; z-index: calc(var(--n) - var(--s)); transform: translate(calc(var(--yon) * min(var(--s), 3) * 12px), calc(min(var(--s), 3) * 11px)) rotate(calc(var(--yon) * min(var(--s), 3) * 2.2deg)); transform-origin: 50% 100%; transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s; }
+  .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-dkart:not(.modulex-ozellik-kart-deste-dkart--ust) { box-shadow: none; }
+  .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-dkart--at { transform: translate(calc(var(--yon) * 120%), -30px) rotate(calc(var(--yon) * 16deg)); visibility: hidden; transition: transform 0.38s ease-in, visibility 0s linear 0.38s; }
+  .modulex-ozellik-kart-deste-dust { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .modulex-ozellik-kart-deste-dno { color: --accentInk--; font-size: 2.2rem; font-weight: 900; line-height: 1; letter-spacing: -0.04em; font-variant-numeric: tabular-nums; }
+  .modulex-ozellik-kart-deste-dtop { color: --muted--; font-size: 1rem; font-weight: 700; letter-spacing: 0; }
+  .modulex-ozellik-kart-deste-dikon { display: grid; place-items: center; width: 54px; height: 54px; border-radius: 16px; background: --accent--; color: --accentText--; font-size: 28px; transition: transform 0.4s ease; }
+  .modulex-ozellik-kart-deste-dkart:hover .modulex-ozellik-kart-deste-dikon { transform: rotate(-10deg) scale(1.06); }
+  .modulex-ozellik-kart-deste-dgorsel { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; }
+  .modulex-ozellik-kart-deste-dyazi { display: grid; gap: 8px; }
+  .modulex-ozellik-kart-deste-dyazi .modulex-ozellik-kart-deste-kbaslik { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.01em; }
+  .modulex-ozellik-kart-deste-dyazi .modulex-ozellik-kart-deste-kmetin { color: --muted--; font-size: 1rem; line-height: 1.7; }
+  .modulex-ozellik-kart-deste-dkontrol { display: flex; align-items: center; gap: 18px; }
+  .modulex-ozellik-kart-deste:not(.modulex-ozellik-kart-deste--dkjs) .modulex-ozellik-kart-deste-dkontrol, .modulex-ozellik-kart-deste:not(.modulex-ozellik-kart-deste--dkjs) .modulex-ozellik-kart-deste-dtop { display: none; }
+  .modulex-ozellik-kart-deste-dsay { color: --muted--; font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-ozellik-kart-deste-karistir { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px 22px; border: 0; border-radius: 999px; background: --text--; color: --bg--; font: inherit; font-weight: 750; transition: transform 0.25s ease, background-color 0.25s ease; }
+  .modulex-ozellik-kart-deste-karistir:hover { transform: translateY(-2px); background-color: color-mix(in srgb, --text-- 82%, --accent--); }
+  .modulex-ozellik-kart-deste-karistir .material-symbols-outlined { font-size: 20px; }
+  @media (max-width: 768px) {
+    .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-deste { padding-block-end: 26px; padding-inline-end: 24px; }
+    .modulex-ozellik-kart-deste--dkjs .modulex-ozellik-kart-deste-dkart { transform: translate(calc(var(--yon) * min(var(--s), 3) * 7px), calc(min(var(--s), 3) * 8px)); }
+    .modulex-ozellik-kart-deste-dkart { padding: 20px; }
+    .modulex-ozellik-kart-deste-dno { font-size: 1.8rem; }
+  }
+  .modulex-ozellik-kart-deste-git { display: inline-flex; align-items: center; gap: 6px; width: fit-content; color: --accentInk--; font-weight: 700; text-decoration: none; transition: gap 0.25s ease; }
+  .modulex-ozellik-kart-deste-git:hover { gap: 10px; }
+  .modulex-ozellik-kart-deste-git .material-symbols-outlined { font-size: 18px; }
+  .modulex-ozellik-kart-deste-ic > .modulex-ozellik-kart-deste-cta { grid-column: 1 / -1; margin-block-start: 32px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ozellik-kart-deste :is(.modulex-ozellik-kart-deste-baslik, .modulex-ozellik-kart-deste-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ozellik-kart-deste-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ozellik-kart-deste { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ozellik-kart-deste *, .modulex-ozellik-kart-deste *::before, .modulex-ozellik-kart-deste *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ozellik-kart-deste";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const deste = (s, P, az) => {
+        const k = [...s.querySelectorAll("[data-dk-kart]")];
+        const ileri = s.querySelector("[data-dk-ileri]");
+        if (k.length < 2 || !ileri) return;
+        s.classList.add(P + "--dkjs");
+        const say = s.querySelector("[data-dk-say]");
+        let nf = null;
+        try { nf = new Intl.NumberFormat(document.documentElement.lang || undefined); } catch (x) { nf = null; }
+        const f = (v) => (nf ? nf.format(v) : String(v));
+        let ust = 0;
+        let mesgul = false;
+        const diz = () => {
+          k.forEach((x, j) => {
+            const sira = (j - ust + k.length) % k.length;
+            x.style.setProperty("--s", String(sira));
+            x.classList.toggle(P + "-dkart--ust", sira === 0);
+            x.inert = sira !== 0;
+            x.setAttribute("aria-hidden", String(sira !== 0));
+          });
+          if (say) say.textContent = `${f(ust + 1)} / ${f(k.length)}`;
+        };
+        ileri.addEventListener("click", () => {
+          if (mesgul) return;
+          const x = k[ust];
+          const bitir = () => { x.classList.remove(P + "-dkart--at"); ust = (ust + 1) % k.length; diz(); mesgul = false; };
+          if (az) { bitir(); return; }
+          mesgul = true;
+          x.classList.add(P + "-dkart--at");
+          setTimeout(bitir, 380);
+        });
+        diz();
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      deste(s, P, az);
+    });
+  })();
+</script>

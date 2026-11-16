@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Demkar Metal: Kayseri’de sfero ve gri döküm, CNC işleme ve boyalı sevkiyat. Tarım makinesi, pompa ve vana üreticilerine seri parça. Demo site; rakamlar kurgusaldır.",
+    "en": "Demkar Metal: ductile and grey iron casting, CNC machining and painted dispatch in Kayseri. Series parts for agricultural machinery, pump and valve makers. Demo site; figures are fictional.",
+    "ar": "ديمكار ميتال: صب الحديد المرن والرمادي والتشغيل بالتحكم الرقمي والشحن المطلي في قيصري. قطع متسلسلة لمصنعي الآلات الزراعية والمضخات والصمامات. موقع تجريبي؛ الأرقام افتراضية."
+  },
+  "keyword": {
+    "tr": "sfero döküm, gri döküm, cnc işleme, döküm parça, dökümhane, kayseri osb",
+    "en": "ductile iron casting, grey iron casting, cnc machining, cast parts, foundry, kayseri",
+    "ar": "صب الحديد المرن، صب الحديد الرمادي، تشغيل CNC، قطع مصبوبة، مسبك، قيصري"
+  },
+  "category": "Kurumsal",
+  "name": "Demkar Metal",
+  "domain": "sanayi-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "source-sans-3",
+    "heading": "montserrat",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#3470A6",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "4px",
+    "--mx-radius-md": "6px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "11px"
+  },
+  "icon": "icon.png"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Özellik Kart Destesi — üst üste yığılmış, tek tek atılan kartlar",
+  "description": "Özellikler bir iskambil destesi gibi üst üste yığılır (arkadakiler hafif kayık ve döndürülmüş): üstteki kartta numara, ikon, başlık, açıklama, varsa görsel ve bağlantı. «Sonraki» düğmesi üstteki kartı yana fırlatıp destenin altına koyar, sayaç «2 / 5» olur. JS yokken kartlar düz ızgara; reduced-motion'da fırlatma yok. ozellik-sekme-gorsel tek özelliği sekmeyle, ozellik-rozet-serit çekmeceyle açar; bu modülde özellikler fiziksel bir kart destesidir — yığın derinliği (kaydırma + dönüş), fırlatma hareketi ve döngüsel sıra; aynı anda tek kart okunur, sekme/çekmece yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "style",
+  "category": "ozellik",
+  "subCategory": "card-deck",
+  "tags": [
+    "ozellik",
+    "deck",
+    "cards",
+    "stack",
+    "swipe",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1000px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "img": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "baslik": "özellik adı — dil sözlüğü (zorunlu)",
+      "metin": "açıklama — dil sözlüğü",
+      "ikon": "Material Symbols adı",
+      "img": "görsel yolu (destekleyen yerleşimde; ana görsel yoksa ilk görsel)",
+      "alt": "görsel alt metni — dil sözlüğü",
+      "url": "bağlantı",
+      "linkMetin": "bağlantı yazısı (yoksa eski `ctaLabel`, o da yoksa «Devamını oku»)"
+    }
+  }
+}
