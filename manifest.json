@@ -1,0 +1,29 @@
+{
+  "name": "Demkar Metal",
+  "short_name": "Demkar Metal",
+  "description": "Demkar Metal: Kayseri’de sfero ve gri döküm, CNC işleme ve boyalı sevkiyat. Tarım makinesi, pompa ve vana üreticilerine seri parça. Demo site; rakamlar kurgusaldır.",
+  "start_url": "/tr/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3470A6",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

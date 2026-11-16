@@ -1,0 +1,46 @@
+{
+  "id": "kalitepolitikamiz",
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {
+    "tr": "Kalite Politikamız",
+    "en": "quality policy, quality, continuous improvement",
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+  },
+  "path": "kalitepolitikamiz",
+  "icon": "verified",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Her partide spektrometre, sertlik ve ölçü kontrolü; kayıtlar müşteriyle paylaşılır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Spectrometer, hardness and dimensional checks on every batch; records are shared with the customer.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>فحص بالمطياف والصلادة والأبعاد لكل دفعة، وتُشارك السجلات مع العميل.</p>"
+  },
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "date": "2026-11-16T18:02:07.811Z",
+  "update": "2026-11-16T18:08:54.094Z",
+  "sablonIzi": "acedf6b7c400faec",
+  "sablonIziDil": {
+    "en": "587042c99dce90ca",
+    "ar": "a5348f544603b25e"
+  }
+}
