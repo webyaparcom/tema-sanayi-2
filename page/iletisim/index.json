@@ -2,7 +2,9 @@
   "name": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Teklif çizelgesi, adres ve çalışma saatleri.",
     "en": "Quote sheet, address and working hours.",
-    "ar": "جدول طلب العرض والعنوان وساعات العمل."
+    "ar": "جدول طلب العرض والعنوان وساعات العمل.",
+    "de": "Angebotsblatt, Adresse und Arbeitszeiten.",
+    "ru": "Лист с цитатой, адрес и часы работы."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "İletişim",
     "en": "Contact",
-    "ar": "اتصل بنا"
+    "ar": "اتصل بنا",
+    "de": "Kontakt",
+    "ru": "Контакты"
   },
   "keyword": {
     "tr": "iletişim",
     "en": "contact",
-    "ar": "اتصال"
+    "ar": "اتصال",
+    "de": "Kontakt",
+    "ru": "контакты"
   },
   "text": {},
   "update": "2026-11-16T18:08:54.082Z",

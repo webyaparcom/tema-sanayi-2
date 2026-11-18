@@ -14,28 +14,38 @@
         "ariaLabel": {
           "tr": "Demo site uyarısı",
           "en": "Demo site notice",
-          "ar": "تنبيه الموقع التجريبي"
+          "ar": "تنبيه الموقع التجريبي",
+          "de": "Hinweis zur Demo-Website",
+          "ru": "Предупреждение о демонстрационном сайте"
         },
         "text": {
           "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
           "en": "This is a demo site — the content is fictional and no payment is taken",
-          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات",
+          "de": "Dies ist eine Demo-Website — die Inhalte sind fiktiv, es wird keine Zahlung entgegengenommen",
+          "ru": "Это демо-сайт — контент вымышленный, оплата не принимается"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "girisHref": "",
         "girisText": {
           "tr": "Üye Girişi",
           "en": "Login",
-          "ar": "تسجيل الدخول"
+          "ar": "تسجيل الدخول",
+          "de": "Mitglieder-Login",
+          "ru": "Вход для участников"
         },
         "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
@@ -78,28 +88,38 @@
         "badge": {
           "tr": "Emlak",
           "en": "Real estate",
-          "ar": "عقارات"
+          "ar": "عقارات",
+          "de": "Immobilien",
+          "ru": "Недвижимость"
         },
         "title": {
           "tr": "Hayalinizdeki yeri birlikte bulalım",
           "en": "Let's find your dream home together",
-          "ar": "لنجد معًا المكان الذي تحلم به"
+          "ar": "لنجد معًا المكان الذي تحلم به",
+          "de": "Finden wir gemeinsam Ihren Traumort",
+          "ru": "Давайте вместе найдём место вашей мечты"
         },
         "description": {
           "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
           "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
-          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان.",
+          "de": "Ausgewählte Immobilien zum Kauf und zur Miete, transparenter Ablauf, bei jedem Inserat die Nummer der Vollmacht.",
+          "ru": "Избранный портфель недвижимости на продажу и в аренду, прозрачный процесс, номер разрешительного документа в каждом объявлении."
         },
         "btn1Text": {
           "tr": "İlanları gör",
           "en": "Browse listings",
-          "ar": "تصفح الإعلانات"
+          "ar": "تصفح الإعلانات",
+          "de": "Anzeigen durchsuchen",
+          "ru": "Просмотреть объявления"
         },
         "btn1Url": "ilanlar",
         "btn2Text": {
           "tr": "Değerleme",
           "en": "Valuation",
-          "ar": "التقييم"
+          "ar": "التقييم",
+          "de": "Bewertung",
+          "ru": "Оценка"
         },
         "btn2Url": "iletisim"
       },
@@ -129,127 +149,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -289,62 +359,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -361,27 +455,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -390,7 +494,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -401,12 +507,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -415,7 +525,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -423,7 +535,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -434,12 +548,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -451,7 +569,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -462,12 +582,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -479,7 +603,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -490,12 +616,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -507,7 +637,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -518,12 +650,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -535,7 +671,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -546,12 +684,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -563,7 +705,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -574,12 +718,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -591,7 +739,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -602,12 +752,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -642,7 +796,9 @@
           "label": {
             "tr": "Tamamlanan Proje",
             "en": "Completed Projects",
-            "ar": "مشروع منجز"
+            "ar": "مشروع منجز",
+            "de": "Abgeschlossene Projekte",
+            "ru": "Завершённые проекты"
           },
           "icon": "task_alt"
         },
@@ -652,7 +808,9 @@
           "label": {
             "tr": "Mutlu Müşteri",
             "en": "Happy Customers",
-            "ar": "عميل سعيد"
+            "ar": "عميل سعيد",
+            "de": "Zufriedene Kunden",
+            "ru": "Довольные клиенты"
           },
           "icon": "sentiment_satisfied"
         },
@@ -662,7 +820,9 @@
           "label": {
             "tr": "Yıllık Deneyim",
             "en": "Years of Experience",
-            "ar": "سنوات من الخبرة"
+            "ar": "سنوات من الخبرة",
+            "de": "Jahre Erfahrung",
+            "ru": "Лет опыта"
           },
           "icon": "workspace_premium"
         },
@@ -672,7 +832,9 @@
           "label": {
             "tr": "Destek",
             "en": "Support",
-            "ar": "الدعم"
+            "ar": "الدعم",
+            "de": "Support",
+            "ru": "Поддержка"
           },
           "icon": "support_agent"
         }
@@ -696,17 +858,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Danışmanlarımız",
           "en": "Our advisors",
-          "ar": "مستشارونا"
+          "ar": "مستشارونا",
+          "de": "Unsere Berater",
+          "ru": "Наши консультанты"
         },
         "description": {
           "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
           "en": "Our experienced team is here to add value to your projects.",
-          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك.",
+          "de": "Unser erfahrenes Team ist hier, um Ihren Projekten Mehrwert zu verleihen.",
+          "ru": "Наша опытная команда готова принести пользу вашим проектам."
         },
         "accentText": "#ffffff"
       },
@@ -718,12 +886,16 @@
           "role": {
             "tr": "Kurucu / CEO",
             "en": "Founder / CEO",
-            "ar": "المؤسس / الرئيس التنفيذي"
+            "ar": "المؤسس / الرئيس التنفيذي",
+            "de": "Gründer / CEO",
+            "ru": "Основатель / CEO"
           },
           "bio": {
             "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
             "en": "Strategy and management with 10+ years of industry experience.",
-            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع.",
+            "de": "Strategie und Management mit über 10 Jahren Branchenerfahrung.",
+            "ru": "Стратегия и управление с опытом работы в отрасли более 10 лет."
           },
           "img": ""
         },
@@ -732,12 +904,16 @@
           "role": {
             "tr": "Tasarım Direktörü",
             "en": "Design Director",
-            "ar": "مدير التصميم"
+            "ar": "مدير التصميم",
+            "de": "Design Director",
+            "ru": "Арт-директор"
           },
           "bio": {
             "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
             "en": "Brand identity and user experience design.",
-            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم.",
+            "de": "Markenidentität und Gestaltung der Nutzererfahrung.",
+            "ru": "Фирменный стиль и дизайн пользовательского опыта."
           },
           "img": ""
         },
@@ -746,12 +922,16 @@
           "role": {
             "tr": "Yazılım Geliştirici",
             "en": "Software Developer",
-            "ar": "مطوّر برمجيات"
+            "ar": "مطوّر برمجيات",
+            "de": "Softwareentwickler",
+            "ru": "Разработчик программного обеспечения"
           },
           "bio": {
             "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
             "en": "Scalable solutions with modern web technologies.",
-            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة.",
+            "de": "Skalierbare Lösungen mit modernen Webtechnologien.",
+            "ru": "Масштабируемые решения на современных веб-технологиях."
           },
           "img": ""
         }
@@ -796,7 +976,9 @@
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
-          "ar": "تواصل معنا"
+          "ar": "تواصل معنا",
+          "de": "Kontaktieren Sie uns",
+          "ru": "Свяжитесь с нами"
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
@@ -850,33 +1032,45 @@
         "name": {
           "tr": "Hakkımızda",
           "en": "About us",
-          "ar": "من نحن"
+          "ar": "من نحن",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "description": {
           "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
           "en": "This page is a theme sample; its content is filled in during demo production.",
-          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي.",
+          "de": "Diese Seite ist ein Theme-Beispiel; der Inhalt wird bei der Demo-Erstellung befüllt.",
+          "ru": "Эта страница — пример темы; содержание заполняется при создании демо."
         },
         "name2": {
           "tr": "Vizyonumuz",
           "en": "Our Vision",
-          "ar": "رؤيتنا"
+          "ar": "رؤيتنا",
+          "de": "Unsere Vision",
+          "ru": "Наше видение"
         },
         "spot2": {
           "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
           "en": "To lead our industry with innovative approaches.",
-          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة.",
+          "de": "In unserer Branche mit innovativen Ansätzen führend zu sein.",
+          "ru": "Быть лидером в нашей отрасли благодаря инновационным подходам."
         },
         "icon2": "visibility",
         "name3": {
           "tr": "Misyonumuz",
           "en": "Our Mission",
-          "ar": "مهمتنا"
+          "ar": "مهمتنا",
+          "de": "Unsere Mission",
+          "ru": "Наша миссия"
         },
         "spot3": {
           "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
           "en": "Deliver needed solutions quickly and transparently.",
-          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية.",
+          "de": "Die benötigten Lösungen schnell und transparent bereitstellen.",
+          "ru": "Быстро и прозрачно предлагать необходимые решения."
         },
         "icon3": "flag",
         "img": "index.jpg",
@@ -887,7 +1081,9 @@
         "title": {
           "tr": "Kurumsal",
           "en": "Corporate",
-          "ar": "المؤسسة"
+          "ar": "المؤسسة",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "stil": ""
       },
@@ -917,127 +1113,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -1077,62 +1323,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -1149,27 +1419,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -1178,7 +1458,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -1189,12 +1471,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -1203,7 +1489,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -1211,7 +1499,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -1222,12 +1512,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -1239,7 +1533,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -1250,12 +1546,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -1267,7 +1567,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -1278,12 +1580,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -1295,7 +1601,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -1306,12 +1614,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -1323,7 +1635,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -1334,12 +1648,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -1351,7 +1669,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -1362,12 +1682,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -1379,7 +1703,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -1390,12 +1716,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -1424,22 +1754,30 @@
         "text": {
           "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
           "en": "This demo was prepared by {brand} —",
-          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —",
+          "de": "Diese Demo wurde von {brand} erstellt —",
+          "ru": "Это демо подготовлено компанией {brand} —"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "ariaLabel": {
           "tr": "Demo bilgisi",
           "en": "Demo credit",
-          "ar": "معلومات العرض التجريبي"
+          "ar": "معلومات العرض التجريبي",
+          "de": "Demo-Hinweis",
+          "ru": "Демо-информация"
         }
       },
       "veri": {
@@ -1479,7 +1817,9 @@
         "cta_ad": {
           "tr": "Teklif iste",
           "en": "Get a quote",
-          "ar": "اطلب عرضًا"
+          "ar": "اطلب عرضًا",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "cta_url": "iletisim",
         "tel": "+90 352 084 31 31",
@@ -1502,7 +1842,9 @@
         "cta": {
           "tr": "Teklif iste",
           "en": "Get a quote",
-          "ar": "اطلب عرضًا"
+          "ar": "اطلب عرضًا",
+          "de": "Angebot",
+          "ru": "Запрос"
         }
       },
       "data": [],
@@ -1543,17 +1885,23 @@
         "ust": {
           "tr": "Döküm · CNC işleme · Kayseri OSB",
           "en": "Casting · CNC machining · Kayseri",
-          "ar": "صب · تشغيل CNC · قيصري"
+          "ar": "صب · تشغيل CNC · قيصري",
+          "de": "Guss · CNC-Bearbeitung · Kayseri OSB",
+          "ru": "Литьё · обработка на станках с ЧПУ · Кайсери OSB"
         },
         "baslik": {
           "tr": "Sözünü tutan dökümhane",
           "en": "The foundry that keeps its word",
-          "ar": "المسبك الذي يفي بوعده"
+          "ar": "المسبك الذي يفي بوعده",
+          "de": "Die Gießerei, die ihr Wort hält",
+          "ru": "Литейная, которая держит слово"
         },
         "metin": {
           "tr": "Sfero ve gri döküm, CNC işleme ve boyalı sevkiyat tek tesiste. Sevkiyatlarımızın %97’si söz verilen günde yola çıktı. Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Ductile and grey iron, CNC machining and painted dispatch in one plant. 97% of our shipments left on the promised day. Figures and certificates are fictional (DEMO).",
-          "ar": "صب الحديد المرن والرمادي والتشغيل بالتحكم الرقمي والشحن المطلي في منشأة واحدة. غادرت 97% من شحناتنا في اليوم الموعود. الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "صب الحديد المرن والرمادي والتشغيل بالتحكم الرقمي والشحن المطلي في منشأة واحدة. غادرت 97% من شحناتنا في اليوم الموعود. الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Sphäroguss und Grauguss, CNC-Bearbeitung und lackierter Versand in einer Anlage. 97 % unserer Lieferungen gingen am zugesagten Tag raus. Zahlen und Dokumente sind fiktiv (DEMO).",
+          "ru": "Шаровидный и серый чугун, ЧПУ-обработка и окрашенная отгрузка на одном предприятии. 97 % наших отправок ушли в обещанный день. Цифры и документы вымышленные (ДЕМО)."
         },
         "img": "/img/sanayi-uretim-hatti.webp",
         "img2": "",
@@ -1562,18 +1910,24 @@
         "alt": {
           "tr": "Döküm ve işleme tesisinde üretim hattı",
           "en": "Production line in a casting and machining plant",
-          "ar": "خط إنتاج في منشأة صب وتشغيل"
+          "ar": "خط إنتاج في منشأة صب وتشغيل",
+          "de": "Produktionslinie in einem Gießerei- und Bearbeitungswerk",
+          "ru": "Производственная линия на литейном и механическом заводе"
         },
         "cta_ad": {
           "tr": "Teklif iste",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "cta_url": "iletisim",
         "cta2_ad": {
           "tr": "Üretim hattı",
           "en": "Production line",
-          "ar": "خط الإنتاج"
+          "ar": "خط الإنتاج",
+          "de": "Produktionslinie",
+          "ru": "Производственная линия"
         },
         "cta2_url": "hizmetler",
         "rozet_ikon": "sensors",
@@ -1581,7 +1935,9 @@
         "rozet_metin": {
           "tr": "Hat izleme",
           "en": "Line monitoring",
-          "ar": "مراقبة الخط"
+          "ar": "مراقبة الخط",
+          "de": "Linienüberwachung",
+          "ru": "Мониторинг линии"
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -1597,12 +1953,16 @@
         "oran_metin": {
           "tr": "Zamanında sevkiyat",
           "en": "On-time dispatch",
-          "ar": "الشحن في الموعد"
+          "ar": "الشحن في الموعد",
+          "de": "Pünktlicher Versand",
+          "ru": "Отгрузка в срок"
         },
         "oran_alt": {
           "tr": "Son 12 ay · 1.184 / 1.221 sevkiyat",
           "en": "Last 12 months · 1,184 / 1,221 shipments",
-          "ar": "آخر 12 شهرًا · 1,184 / 1,221 شحنة"
+          "ar": "آخر 12 شهرًا · 1,184 / 1,221 شحنة",
+          "de": "Letzte 12 Monate · 1.184 / 1.221 Sendungen",
+          "ru": "Последние 12 месяцев · 1 184 / 1 221 отправки"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
@@ -1610,28 +1970,38 @@
         "eyebrow": {
           "tr": "Döküm · CNC işleme",
           "en": "Casting · CNC machining",
-          "ar": "صب · تشغيل CNC"
+          "ar": "صب · تشغيل CNC",
+          "de": "Guss · CNC-Bearbeitung",
+          "ru": "Литьё · обработка на ЧПУ"
         },
         "title": {
           "tr": "Demkar Metal",
           "en": "Demkar Metal",
-          "ar": "ديمكار ميتال"
+          "ar": "ديمكار ميتال",
+          "de": "Demkar Metal",
+          "ru": "Demkar Metal"
         },
         "cta1": {
           "tr": "Teklif iste",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "cta1_url": "iletisim",
         "cta2": {
           "tr": "Üretim",
           "en": "Production",
-          "ar": "الإنتاج"
+          "ar": "الإنتاج",
+          "de": "Produktion",
+          "ru": "Производство"
         },
         "scroll_label": {
           "tr": "Aşağı kaydır",
           "en": "Scroll down",
-          "ar": "انزل للأسفل"
+          "ar": "انزل للأسفل",
+          "de": "Nach unten scrollen",
+          "ru": "Прокрутите вниз"
         }
       },
       "data": [
@@ -1640,12 +2010,16 @@
           "deger": {
             "tr": "±0,02 mm",
             "en": "±0.02 mm",
-            "ar": "±0.02 مم"
+            "ar": "±0.02 مم",
+            "de": "±0,02 mm",
+            "ru": "±0,02 мм"
           },
           "metin": {
             "tr": "İşleme toleransı",
             "en": "Machining tolerance",
-            "ar": "تفاوت التشغيل"
+            "ar": "تفاوت التشغيل",
+            "de": "Bearbeitungstoleranz",
+            "ru": "Допуск обработки"
           }
         },
         {
@@ -1653,12 +2027,16 @@
           "deger": {
             "tr": "4.800 t",
             "en": "4,800 t",
-            "ar": "4,800 طن"
+            "ar": "4,800 طن",
+            "de": "4.800 t",
+            "ru": "4 800 т"
           },
           "metin": {
             "tr": "Yıllık döküm",
             "en": "Annual casting",
-            "ar": "الصب السنوي"
+            "ar": "الصب السنوي",
+            "de": "Jahresaufstellung",
+            "ru": "Годовая выписка"
           }
         },
         {
@@ -1666,12 +2044,16 @@
           "deger": {
             "tr": "%0,4",
             "en": "0.4%",
-            "ar": "0.4%"
+            "ar": "0.4%",
+            "de": "0.4%",
+            "ru": "0.4%"
           },
           "metin": {
             "tr": "İade oranı",
             "en": "Return rate",
-            "ar": "نسبة المرتجعات"
+            "ar": "نسبة المرتجعات",
+            "de": "Rückgabequote",
+            "ru": "Доля возвратов"
           }
         }
       ],
@@ -1715,17 +2097,23 @@
         "ust": {
           "tr": "Karne",
           "en": "Scorecard",
-          "ar": "بطاقة الأداء"
+          "ar": "بطاقة الأداء",
+          "de": "Bewertungskarte",
+          "ru": "Оценочная карта"
         },
         "baslik": {
           "tr": "İki yılın karnesi",
           "en": "Two years, side by side",
-          "ar": "سنتان جنبًا إلى جنب"
+          "ar": "سنتان جنبًا إلى جنب",
+          "de": "Zeugnis zweier Jahre",
+          "ru": "Итоги двух лет"
         },
         "metin": {
           "tr": "Dönem düğmesiyle 2025 ve 2026 değerlerini karşılaştırın. Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Use the period button to compare 2025 and 2026. Figures and certificates are fictional (DEMO).",
-          "ar": "استخدم زر الفترة للمقارنة بين 2025 و2026. الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "استخدم زر الفترة للمقارنة بين 2025 و2026. الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Vergleichen Sie die Werte für 2025 und 2026 mit der Perioden-Schaltfläche. Zahlen und Dokumente sind fiktiv (DEMO).",
+          "ru": "Используйте кнопку периода, чтобы сравнить значения за 2025 и 2026 годы. Цифры и документы вымышлены (ДЕМО)."
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -1740,24 +2128,32 @@
         "donem_a": {
           "tr": "2025",
           "en": "2025",
-          "ar": "2025"
+          "ar": "2025",
+          "de": "2025",
+          "ru": "2025"
         },
         "donem_b": {
           "tr": "2026",
           "en": "2026",
-          "ar": "2026"
+          "ar": "2026",
+          "de": "2026",
+          "ru": "2026"
         },
         "bgcolor": "var(--mx-site-surface, #f6f7f9)",
         "color": "var(--mx-site-text, #111318)",
         "title": {
           "tr": "İki yılın karnesi",
           "en": "Two years, side by side",
-          "ar": "سنتان جنبًا إلى جنب"
+          "ar": "سنتان جنبًا إلى جنب",
+          "de": "Zeugnis zweier Jahre",
+          "ru": "Итоги двух лет"
         },
         "description": {
           "tr": "Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Figures and certificates are fictional (DEMO).",
-          "ar": "الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Цифры и сертификаты являются вымышленными (DEMO)."
         }
       },
       "data": [
@@ -1768,12 +2164,16 @@
           "etiket": {
             "tr": "Zamanında sevkiyat",
             "en": "On-time dispatch",
-            "ar": "الشحن في الموعد"
+            "ar": "الشحن في الموعد",
+            "de": "Pünktlicher Versand",
+            "ru": "Отгрузка в срок"
           },
           "metin": {
             "tr": "Söz verilen günde yola çıkan sevkiyat",
             "en": "Shipments leaving on the promised day",
-            "ar": "شحنات غادرت في اليوم الموعود"
+            "ar": "شحنات غادرت في اليوم الموعود",
+            "de": "Sendung, die am versprochenen Tag losfährt",
+            "ru": "Отправка в обещанный день"
           },
           "ikon": "local_shipping",
           "max": 100
@@ -1785,12 +2185,16 @@
           "etiket": {
             "tr": "İlk numune onayı",
             "en": "First-sample approval",
-            "ar": "اعتماد العينة الأولى"
+            "ar": "اعتماد العينة الأولى",
+            "de": "Freigabe des ersten Musters",
+            "ru": "Утверждение первого образца"
           },
           "metin": {
             "tr": "İlk denemede onaylanan yeni parça",
             "en": "New parts approved at the first try",
-            "ar": "قطع جديدة اعتُمدت من المحاولة الأولى"
+            "ar": "قطع جديدة اعتُمدت من المحاولة الأولى",
+            "de": "Neues Teil, beim ersten Versuch abgenommen",
+            "ru": "Новая деталь, принятая с первой попытки"
           },
           "ikon": "task_alt",
           "max": 100
@@ -1801,17 +2205,23 @@
           "sonek": {
             "tr": " gün",
             "en": " days",
-            "ar": " يومًا"
+            "ar": " يومًا",
+            "de": " Tage",
+            "ru": " дн."
           },
           "etiket": {
             "tr": "Ortalama teslim",
             "en": "Average lead time",
-            "ar": "متوسط مدة التسليم"
+            "ar": "متوسط مدة التسليم",
+            "de": "Durchschnittliche Lieferzeit",
+            "ru": "Средний срок доставки"
           },
           "metin": {
             "tr": "Siparişten sevke (düşük daha iyi)",
             "en": "Order to dispatch (lower is better)",
-            "ar": "من الطلب إلى الشحن (الأقل أفضل)"
+            "ar": "من الطلب إلى الشحن (الأقل أفضل)",
+            "de": "Von der Bestellung bis zum Versand (weniger ist besser)",
+            "ru": "От заказа до отправки (чем меньше, тем лучше)"
           },
           "ikon": "schedule",
           "max": 30
@@ -1822,17 +2232,23 @@
           "sonek": {
             "tr": " t",
             "en": " t",
-            "ar": " طن"
+            "ar": " طن",
+            "de": " t",
+            "ru": " t"
           },
           "etiket": {
             "tr": "Yıllık döküm",
             "en": "Annual casting",
-            "ar": "الصب السنوي"
+            "ar": "الصب السنوي",
+            "de": "Jahresaufstellung",
+            "ru": "Годовая выписка"
           },
           "metin": {
             "tr": "Sfero ve gri döküm toplamı",
             "en": "Ductile and grey iron combined",
-            "ar": "مجموع الحديد المرن والرمادي"
+            "ar": "مجموع الحديد المرن والرمادي",
+            "de": "Summe aus Sphäro- und Grauguss",
+            "ru": "Сумма сферо- и серого чугуна"
           },
           "ikon": "factory",
           "max": 6000
@@ -1845,12 +2261,16 @@
           "etiket": {
             "tr": "Döküm firesi",
             "en": "Casting scrap",
-            "ar": "هدر الصب"
+            "ar": "هدر الصب",
+            "de": "Gussabfall",
+            "ru": "Литейный брак"
           },
           "metin": {
             "tr": "Hurdaya ayrılan döküm (düşük daha iyi)",
             "en": "Castings scrapped (lower is better)",
-            "ar": "مصبوبات مستبعدة (الأقل أفضل)"
+            "ar": "مصبوبات مستبعدة (الأقل أفضل)",
+            "de": "Als Ausschuss abgetrennte Gussstücke (niedriger ist besser)",
+            "ru": "Отбракованные отливки (ниже — лучше)"
           },
           "ikon": "recycling",
           "max": 5
@@ -1899,17 +2319,23 @@
         "ust": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "baslik": {
           "tr": "Teklifinizi kim hazırlar?",
           "en": "Who prepares your quote?",
-          "ar": "من يعدّ عرض السعر لك؟"
+          "ar": "من يعدّ عرض السعر لك؟",
+          "de": "Wer erstellt Ihr Angebot?",
+          "ru": "Кто подготовит вашу смету?"
         },
         "metin": {
           "tr": "Kartlara dokunun; sıradaki kişi öne gelir. Kurgusal profiller; portre kullanılmaz.",
           "en": "Tap the cards to bring the next person forward. Fictional profiles; no portraits are used.",
-          "ar": "المس البطاقات ليظهر الشخص التالي. ملفات افتراضية؛ لا تُستخدم صور شخصية."
+          "ar": "المس البطاقات ليظهر الشخص التالي. ملفات افتراضية؛ لا تُستخدم صور شخصية.",
+          "de": "Tippen Sie auf die Karten; die nächste Person kommt nach vorn. Fiktive Profile; keine Porträts.",
+          "ru": "Нажмите на карточки; следующий человек выйдет на первый план. Фиктивные профили; портреты не используются."
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -1926,17 +2352,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Teklifinizi kim hazırlar?",
           "en": "Who prepares your quote?",
-          "ar": "من يعدّ عرض السعر لك؟"
+          "ar": "من يعدّ عرض السعر لك؟",
+          "de": "Wer erstellt Ihr Angebot?",
+          "ru": "Кто подготовит вашу смету?"
         },
         "description": {
           "tr": "Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Figures and certificates are fictional (DEMO).",
-          "ar": "الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Цифры и сертификаты являются вымышленными (DEMO)."
         }
       },
       "data": [
@@ -1945,17 +2377,23 @@
           "unvan": {
             "tr": "Kalite müdürü",
             "en": "Quality manager",
-            "ar": "مديرة الجودة"
+            "ar": "مديرة الجودة",
+            "de": "Qualitätsmanager",
+            "ru": "Руководитель отдела качества"
           },
           "bolum": {
             "tr": "Kalite",
             "en": "Quality",
-            "ar": "الجودة"
+            "ar": "الجودة",
+            "de": "Qualität",
+            "ru": "Качество"
           },
           "metin": {
             "tr": "Ölçüm raporları ve numune onayı (kurgusal profil).",
             "en": "Measurement reports and sample approval (fictional profile).",
-            "ar": "تقارير القياس واعتماد العينات (ملف افتراضي)."
+            "ar": "تقارير القياس واعتماد العينات (ملف افتراضي).",
+            "de": "Messberichte und Musterfreigabe (fiktives Profil).",
+            "ru": "Протоколы измерений и согласование образца (вымышленный профиль)."
           },
           "eposta": "kalite@demkarmetal.example"
         },
@@ -1964,17 +2402,23 @@
           "unvan": {
             "tr": "Satış mühendisi",
             "en": "Sales engineer",
-            "ar": "مهندس مبيعات"
+            "ar": "مهندس مبيعات",
+            "de": "Vertriebsingenieur",
+            "ru": "Инженер по продажам"
           },
           "bolum": {
             "tr": "Satış",
             "en": "Sales",
-            "ar": "المبيعات"
+            "ar": "المبيعات",
+            "de": "Verkauf",
+            "ru": "Продажи"
           },
           "metin": {
             "tr": "Teklif, fiyat ve teslim planı (kurgusal profil).",
             "en": "Quotes, pricing and delivery plans (fictional profile).",
-            "ar": "العروض والأسعار وخطط التسليم (ملف افتراضي)."
+            "ar": "العروض والأسعار وخطط التسليم (ملف افتراضي).",
+            "de": "Angebot, Preis und Lieferplan (fiktives Profil).",
+            "ru": "Предложение, цена и график поставки (вымышленный профиль)."
           },
           "eposta": "teklif@demkarmetal.example"
         },
@@ -1983,17 +2427,23 @@
           "unvan": {
             "tr": "Döküm şefi",
             "en": "Foundry supervisor",
-            "ar": "رئيسة المسبك"
+            "ar": "رئيسة المسبك",
+            "de": "Gießereileiter",
+            "ru": "Начальник литейного цеха"
           },
           "bolum": {
             "tr": "Üretim",
             "en": "Production",
-            "ar": "الإنتاج"
+            "ar": "الإنتاج",
+            "de": "Produktion",
+            "ru": "Производство"
           },
           "metin": {
             "tr": "Kalıplama ve ergitme vardiyaları (kurgusal profil).",
             "en": "Moulding and melting shifts (fictional profile).",
-            "ar": "ورديات القولبة والصهر (ملف افتراضي)."
+            "ar": "ورديات القولبة والصهر (ملف افتراضي).",
+            "de": "Formgebungs- und Schmelzschichten (fiktives Profil).",
+            "ru": "Смены формовки и плавки (вымышленный профиль)."
           }
         },
         {
@@ -2001,17 +2451,23 @@
           "unvan": {
             "tr": "İşleme planlama",
             "en": "Machining planner",
-            "ar": "مخطط التشغيل"
+            "ar": "مخطط التشغيل",
+            "de": "Bearbeitungsplanung",
+            "ru": "Планирование обработки"
           },
           "bolum": {
             "tr": "Üretim",
             "en": "Production",
-            "ar": "الإنتاج"
+            "ar": "الإنتاج",
+            "de": "Produktion",
+            "ru": "Производство"
           },
           "metin": {
             "tr": "CNC programları ve fikstür tasarımı (kurgusal profil).",
             "en": "CNC programs and fixture design (fictional profile).",
-            "ar": "برامج CNC وتصميم المثبّتات (ملف افتراضي)."
+            "ar": "برامج CNC وتصميم المثبّتات (ملف افتراضي).",
+            "de": "CNC-Programme und Fixture-Design (fiktives Profil).",
+            "ru": "CNC-программы и проектирование оснастки (вымышленный профиль)."
           }
         }
       ],
@@ -2059,17 +2515,23 @@
         "ust": {
           "tr": "Kabiliyetler",
           "en": "Capabilities",
-          "ar": "القدرات"
+          "ar": "القدرات",
+          "de": "Fähigkeiten",
+          "ru": "Возможности"
         },
         "baslik": {
           "tr": "Dört iş, tek sorumluluk",
           "en": "Four jobs, one responsibility",
-          "ar": "أربعة أعمال ومسؤولية واحدة"
+          "ar": "أربعة أعمال ومسؤولية واحدة",
+          "de": "Vier Aufgaben, eine Verantwortung",
+          "ru": "Четыре задачи, одна ответственность"
         },
         "metin": {
           "tr": "Kartı atın, sıradaki kabiliyet öne gelsin. Görseller temsilîdir.",
           "en": "Flick a card to bring the next capability forward. Images are representative.",
-          "ar": "اسحب البطاقة لتظهر القدرة التالية. الصور تمثيلية."
+          "ar": "اسحب البطاقة لتظهر القدرة التالية. الصور تمثيلية.",
+          "de": "Werfen Sie die Karte ab, damit die nächste Fähigkeit nach vorn rückt. Die Bilder sind symbolisch.",
+          "ru": "Сбросьте карточку, и следующий навык выйдет вперёд. Изображения символические."
         },
         "img": "/img/sanayi-makine-1.webp",
         "bg": "var(--mx-site-surface, #f6f7f9)",
@@ -2087,17 +2549,23 @@
         "eyebrow": {
           "tr": "Kabiliyetler",
           "en": "Capabilities",
-          "ar": "القدرات"
+          "ar": "القدرات",
+          "de": "Fähigkeiten",
+          "ru": "Возможности"
         },
         "title": {
           "tr": "Dört iş, tek sorumluluk",
           "en": "Four jobs, one responsibility",
-          "ar": "أربعة أعمال ومسؤولية واحدة"
+          "ar": "أربعة أعمال ومسؤولية واحدة",
+          "de": "Vier Aufgaben, eine Verantwortung",
+          "ru": "Четыре задачи, одна ответственность"
         },
         "description": {
           "tr": "Görseller temsilîdir.",
           "en": "Images are representative.",
-          "ar": "الصور تمثيلية."
+          "ar": "الصور تمثيلية.",
+          "de": "Bilder sind repräsentativ.",
+          "ru": "Изображения носят иллюстративный характер."
         },
         "ctaLabel": "",
         "ctaUrl": ""
@@ -2108,24 +2576,32 @@
           "baslik": {
             "tr": "Sfero döküm",
             "en": "Ductile iron casting",
-            "ar": "صب الحديد المرن"
+            "ar": "صب الحديد المرن",
+            "de": "Sphäroguss",
+            "ru": "Шаровидное литьё"
           },
           "metin": {
             "tr": "GGG40 – GGG60 sınıfları, 0,5 – 120 kg parça. Yatay kalıplama hattı.",
             "en": "Grades GGG40 – GGG60, parts from 0.5 to 120 kg. Horizontal moulding line.",
-            "ar": "درجات GGG40 – GGG60، قطع من 0.5 إلى 120 كغ. خط قولبة أفقي."
+            "ar": "درجات GGG40 – GGG60، قطع من 0.5 إلى 120 كغ. خط قولبة أفقي.",
+            "de": "Klassen GGG40 – GGG60, Teile von 0,5 – 120 kg. Horizontale Gießlinie.",
+            "ru": "Классы GGG40 – GGG60, детали от 0,5 до 120 кг. Горизонтальная линия литья."
           },
           "img": "/img/sanayi-makine-1.webp",
           "alt": {
             "tr": "Döküm makinesi",
             "en": "Casting machine",
-            "ar": "آلة صب"
+            "ar": "آلة صب",
+            "de": "Gießmaschine",
+            "ru": "Литейная машина"
           },
           "url": "iletisim",
           "linkMetin": {
             "tr": "Teklif iste",
             "en": "Request a quote",
-            "ar": "اطلب عرض سعر"
+            "ar": "اطلب عرض سعر",
+            "de": "Angebot",
+            "ru": "Запрос"
           }
         },
         {
@@ -2133,24 +2609,32 @@
           "baslik": {
             "tr": "Gri döküm",
             "en": "Grey iron casting",
-            "ar": "صب الحديد الرمادي"
+            "ar": "صب الحديد الرمادي",
+            "de": "Grauguss",
+            "ru": "Серый чугун"
           },
           "metin": {
             "tr": "GG20 – GG30 sınıfları; pompa gövdesi, kapak ve fren parçaları.",
             "en": "Grades GG20 – GG30; pump housings, covers and brake parts.",
-            "ar": "درجات GG20 – GG30؛ أجسام مضخات وأغطية وقطع فرامل."
+            "ar": "درجات GG20 – GG30؛ أجسام مضخات وأغطية وقطع فرامل.",
+            "de": "Klassen GG20 – GG30; Pumpengehäuse, Deckel und Bremsenteile.",
+            "ru": "Классы GG20 – GG30; корпуса насосов, крышки и тормозные детали."
           },
           "img": "/img/sanayi-makine-2.webp",
           "alt": {
             "tr": "Ergitme bölümü",
             "en": "Melting shop",
-            "ar": "قسم الصهر"
+            "ar": "قسم الصهر",
+            "de": "Schmelzabteilung",
+            "ru": "Цех плавки"
           },
           "url": "iletisim",
           "linkMetin": {
             "tr": "Teklif iste",
             "en": "Request a quote",
-            "ar": "اطلب عرض سعر"
+            "ar": "اطلب عرض سعر",
+            "de": "Angebot",
+            "ru": "Запрос"
           }
         },
         {
@@ -2158,24 +2642,32 @@
           "baslik": {
             "tr": "CNC işleme",
             "en": "CNC machining",
-            "ar": "تشغيل CNC"
+            "ar": "تشغيل CNC",
+            "de": "CNC-Bearbeitung",
+            "ru": "CNC-обработка"
           },
           "metin": {
             "tr": "Dikey ve yatay işleme merkezlerinde ±0,02 mm tolerans.",
             "en": "±0.02 mm tolerance on vertical and horizontal machining centres.",
-            "ar": "تفاوت ±0.02 مم على مراكز تشغيل رأسية وأفقية."
+            "ar": "تفاوت ±0.02 مم على مراكز تشغيل رأسية وأفقية.",
+            "de": "±0,02 mm Toleranz auf vertikalen und horizontalen Bearbeitungszentren.",
+            "ru": "Допуск ±0,02 мм на вертикальных и горизонтальных обрабатывающих центрах."
           },
           "img": "/img/sanayi-makine-3.webp",
           "alt": {
             "tr": "İşleme merkezi",
             "en": "Machining centre",
-            "ar": "مركز تشغيل"
+            "ar": "مركز تشغيل",
+            "de": "Bearbeitungszentrum",
+            "ru": "Обрабатывающий центр"
           },
           "url": "iletisim",
           "linkMetin": {
             "tr": "Teklif iste",
             "en": "Request a quote",
-            "ar": "اطلب عرض سعر"
+            "ar": "اطلب عرض سعر",
+            "de": "Angebot",
+            "ru": "Запрос"
           }
         },
         {
@@ -2183,24 +2675,32 @@
           "baslik": {
             "tr": "Boya ve paketleme",
             "en": "Paint and packing",
-            "ar": "الطلاء والتغليف"
+            "ar": "الطلاء والتغليف",
+            "de": "Lackierung und Verpackung",
+            "ru": "Покраска и упаковка"
           },
           "metin": {
             "tr": "Daldırma astar, toz boya ve müşteriye özel sandık etiketi.",
             "en": "Dip primer, powder coating and customer-specific crate labels.",
-            "ar": "طلاء أساس بالغمر وطلاء مسحوق وملصقات صناديق خاصة بالعميل."
+            "ar": "طلاء أساس بالغمر وطلاء مسحوق وملصقات صناديق خاصة بالعميل.",
+            "de": "Tauchgrundierung, Pulverlack und kundenspezifisches Kistenetikett.",
+            "ru": "Грунтовка окунанием, порошковая краска и индивидуальная этикетка на ящик для клиента."
           },
           "img": "/img/sanayi-depo.webp",
           "alt": {
             "tr": "Sevkiyat deposu",
             "en": "Dispatch warehouse",
-            "ar": "مستودع الشحن"
+            "ar": "مستودع الشحن",
+            "de": "Versandlager",
+            "ru": "Склад отгрузки"
           },
           "url": "iletisim",
           "linkMetin": {
             "tr": "Teklif iste",
             "en": "Request a quote",
-            "ar": "اطلب عرض سعر"
+            "ar": "اطلب عرض سعر",
+            "de": "Angebot",
+            "ru": "Запрос"
           }
         }
       ],
@@ -2246,17 +2746,23 @@
         "ust": {
           "tr": "Referanslar",
           "en": "References",
-          "ar": "المرجعيات"
+          "ar": "المرجعيات",
+          "de": "Referenzen",
+          "ru": "Референсы"
         },
         "baslik": {
           "tr": "Banttan çıkan parçalar nereye gidiyor?",
           "en": "Where do our parts go?",
-          "ar": "إلى أين تذهب قطعنا؟"
+          "ar": "إلى أين تذهب قطعنا؟",
+          "de": "Wohin gehen unsere Teile?",
+          "ru": "Куда отправляются наши детали?"
         },
         "metin": {
           "tr": "Kurgusal müşteri adları; gerçek bir kuruluşa ait değildir.",
           "en": "Fictional customer names; they do not belong to a real organisation.",
-          "ar": "أسماء عملاء افتراضية لا تعود إلى جهة حقيقية."
+          "ar": "أسماء عملاء افتراضية لا تعود إلى جهة حقيقية.",
+          "de": "Fiktive Kundennamen; sie gehören keiner realen Organisation.",
+          "ru": "Вымышленные имена клиентов; они не принадлежат реальной организации."
         },
         "sayi": "",
         "sayiEtiket": "",
@@ -2276,12 +2782,16 @@
         "title": {
           "tr": "Banttan çıkan parçalar nereye gidiyor?",
           "en": "Where do our parts go?",
-          "ar": "إلى أين تذهب قطعنا؟"
+          "ar": "إلى أين تذهب قطعنا؟",
+          "de": "Wohin gehen unsere Teile?",
+          "ru": "Куда отправляются наши детали?"
         },
         "description": {
           "tr": "Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Figures and certificates are fictional (DEMO).",
-          "ar": "الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Цифры и сертификаты являются вымышленными (DEMO)."
         }
       },
       "data": [
@@ -2290,12 +2800,16 @@
           "sektor": {
             "tr": "Tarım makinesi",
             "en": "Agricultural machinery",
-            "ar": "آلات زراعية"
+            "ar": "آلات زراعية",
+            "de": "Landmaschinen",
+            "ru": "Сельскохозяйственная техника"
           },
           "metin": {
             "tr": "Traktör aks gövdesi",
             "en": "Tractor axle housing",
-            "ar": "هيكل محور جرار"
+            "ar": "هيكل محور جرار",
+            "de": "Traktor-Achsgehäuse",
+            "ru": "Корпус моста трактора"
           },
           "yil": "2014"
         },
@@ -2304,12 +2818,16 @@
           "sektor": {
             "tr": "Pompa",
             "en": "Pumps",
-            "ar": "مضخات"
+            "ar": "مضخات",
+            "de": "Pumpen",
+            "ru": "Насосы"
           },
           "metin": {
             "tr": "Salyangoz gövde",
             "en": "Volute casing",
-            "ar": "غلاف حلزوني"
+            "ar": "غلاف حلزوني",
+            "de": "Schneckengehäuse",
+            "ru": "Улиточный корпус"
           },
           "yil": "2016"
         },
@@ -2318,12 +2836,16 @@
           "sektor": {
             "tr": "Vana",
             "en": "Valves",
-            "ar": "صمامات"
+            "ar": "صمامات",
+            "de": "Ventil",
+            "ru": "Вентиль"
           },
           "metin": {
             "tr": "Kelebek vana gövdesi",
             "en": "Butterfly valve body",
-            "ar": "جسم صمام فراشة"
+            "ar": "جسم صمام فراشة",
+            "de": "Klappenventilgehäuse",
+            "ru": "Корпус дискового затвора"
           },
           "yil": "2018"
         },
@@ -2332,12 +2854,16 @@
           "sektor": {
             "tr": "Kompresör",
             "en": "Compressors",
-            "ar": "ضواغط"
+            "ar": "ضواغط",
+            "de": "Kompressoren",
+            "ru": "Компрессоры"
           },
           "metin": {
             "tr": "Silindir kapağı",
             "en": "Cylinder head",
-            "ar": "رأس أسطوانة"
+            "ar": "رأس أسطوانة",
+            "de": "Zylinderkopf",
+            "ru": "Головка цилиндра"
           },
           "yil": "2019"
         },
@@ -2346,12 +2872,16 @@
           "sektor": {
             "tr": "Raylı sistem",
             "en": "Rail systems",
-            "ar": "أنظمة سككية"
+            "ar": "أنظمة سككية",
+            "de": "Schienensystem",
+            "ru": "Рельсовая система"
           },
           "metin": {
             "tr": "Fren pabucu",
             "en": "Brake shoe",
-            "ar": "حذاء فرامل"
+            "ar": "حذاء فرامل",
+            "de": "Bremsbacke",
+            "ru": "Тормозная колодка"
           },
           "yil": "2022"
         }
@@ -2398,22 +2928,30 @@
         "ust": {
           "tr": "Teklif",
           "en": "Quote",
-          "ar": "عرض السعر"
+          "ar": "عرض السعر",
+          "de": "Angebot",
+          "ru": "Заявка"
         },
         "baslik": {
           "tr": "Teklif çizelgesi",
           "en": "Quote sheet",
-          "ar": "جدول طلب العرض"
+          "ar": "جدول طلب العرض",
+          "de": "Angebotsübersicht",
+          "ru": "График предложений"
         },
         "metin": {
           "tr": "Parça adını, malzeme sınıfını ve yıllık adedi yazın; teknik resminizi e-postaya ekleyin. İki iş günü içinde dönüş yapılır. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Write the part name, material grade and annual quantity; attach your drawing to the e-mail. We reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اكتب اسم القطعة ودرجة المادة والكمية السنوية، وأرفق الرسم الفني بالبريد. نرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اكتب اسم القطعة ودرجة المادة والكمية السنوية، وأرفق الرسم الفني بالبريد. نرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات.",
+          "de": "Geben Sie Teilenamen, Werkstoffklasse und Jahresmenge an; fügen Sie Ihre technische Zeichnung der E-Mail bei. Wir melden uns innerhalb von zwei Werktagen. Dieses Formular ist eine Demo; Ihr E-Mail-Programm öffnet sich, es werden keine Daten gespeichert.",
+          "ru": "Укажите название детали, класс материала и годовой объём; приложите технический чертёж к письму. Ответим в течение двух рабочих дней. Эта форма — демо; откроется ваш почтовый клиент, данные не сохраняются."
         },
         "adres": {
           "tr": "Kayseri OSB 12. Cadde No: 7, Melikgazi, Kayseri (kurgusal adres)",
           "en": "7 Twelfth Avenue, Kayseri Organized Industrial Zone, Melikgazi, Kayseri (fictional address)",
-          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)"
+          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)",
+          "de": "12. Straße Nr. 7, Kayseri Organisierte Industriezone, Melikgazi, Kayseri (fiktive Adresse)",
+          "ru": "12-я улица, д. 7, Организованная промышленная зона Кайсери, Меликгези, Кайсери (фиктивный адрес)"
         },
         "telefon": "+90 352 084 31 31",
         "eposta": "teklif@demkarmetal.example",
@@ -2421,14 +2959,18 @@
         "saat": {
           "tr": "Pzt–Cum 08:00 – 17:30 · Cmt 08:00 – 12:30",
           "en": "Mon–Fri 08:00 – 17:30 · Sat 08:00 – 12:30",
-          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30"
+          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30",
+          "de": "Mo–Fr 08:00 – 17:30 · Sa 08:00 – 12:30",
+          "ru": "Пн–Пт 08:00 – 17:30 · Сб 08:00 – 12:30"
         },
         "haritaUrl": "",
         "haritaGomme": "",
         "waMesaj": {
           "tr": "Merhaba Demkar, bir parça için teklif istiyorum.",
           "en": "Hello Demkar, I would like a quote for a part.",
-          "ar": "مرحبًا ديمكار، أودّ عرض سعر لقطعة."
+          "ar": "مرحبًا ديمكار، أودّ عرض سعر لقطعة.",
+          "de": "Hallo Demkar, ich möchte ein Angebot für ein Teil anfragen.",
+          "ru": "Здравствуйте, Demkar, я хочу запросить предложение на одну деталь."
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -2446,40 +2988,54 @@
         "address": {
           "tr": "Kayseri OSB 12. Cadde No: 7, Melikgazi, Kayseri (kurgusal adres)",
           "en": "7 Twelfth Avenue, Kayseri Organized Industrial Zone, Melikgazi, Kayseri (fictional address)",
-          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)"
+          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)",
+          "de": "12. Straße Nr. 7, Kayseri Organisierte Industriezone, Melikgazi, Kayseri (fiktive Adresse)",
+          "ru": "12-я улица, д. 7, Организованная промышленная зона Кайсери, Меликгези, Кайсери (фиктивный адрес)"
         },
         "phone": "+90 352 084 31 31",
         "email": "teklif@demkarmetal.example",
         "hours": {
           "tr": "Pzt–Cum 08:00 – 17:30 · Cmt 08:00 – 12:30",
           "en": "Mon–Fri 08:00 – 17:30 · Sat 08:00 – 12:30",
-          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30"
+          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30",
+          "de": "Mo–Fr 08:00 – 17:30 · Sa 08:00 – 12:30",
+          "ru": "Пн–Пт 08:00 – 17:30 · Сб 08:00 – 12:30"
         },
         "social": [],
         "title": {
           "tr": "Teklif çizelgesi",
           "en": "Quote sheet",
-          "ar": "جدول طلب العرض"
+          "ar": "جدول طلب العرض",
+          "de": "Angebotsübersicht",
+          "ru": "График предложений"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات.",
+          "de": "Hinterlassen Sie Ihre Angaben; wir melden uns innerhalb von zwei Werktagen. Dieses Formular ist eine Demo; es öffnet Ihren E-Mail-Client und speichert keine Daten.",
+          "ru": "Оставьте свои данные; мы ответим в течение двух рабочих дней. Эта форма является демо; она открывает ваш почтовый клиент и не хранит данные."
         },
         "panelTitle": {
           "tr": "Demkar Metal",
           "en": "Demkar Metal",
-          "ar": "Demkar Metal"
+          "ar": "Demkar Metal",
+          "de": "Demkar Metal",
+          "ru": "Demkar Metal"
         },
         "panelText": {
           "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "ar": "الصور تمثيلية وهذا عرض تجريبي.",
+          "de": "Die Bilder sind symbolisch; dies ist eine Einrichtungs-Demo.",
+          "ru": "Изображения условные; это демонстрация установки."
         },
         "formTitle": {
           "tr": "Teklif talebi",
           "en": "Quote request",
-          "ar": "طلب عرض سعر"
+          "ar": "طلب عرض سعر",
+          "de": "Angebotsanfrage",
+          "ru": "Запрос предложения"
         },
         "subjects": [
           {
@@ -2487,7 +3043,9 @@
             "name": {
               "tr": "Sfero döküm parça",
               "en": "Ductile iron part",
-              "ar": "قطعة حديد مرن"
+              "ar": "قطعة حديد مرن",
+              "de": "Gussteil aus Sphäroguss",
+              "ru": "Деталь из чугуна с шаровидным графитом"
             }
           },
           {
@@ -2495,7 +3053,9 @@
             "name": {
               "tr": "Gri döküm parça",
               "en": "Grey iron part",
-              "ar": "قطعة حديد رمادي"
+              "ar": "قطعة حديد رمادي",
+              "de": "Graugussteil",
+              "ru": "Деталь из серого чугуна"
             }
           },
           {
@@ -2503,7 +3063,9 @@
             "name": {
               "tr": "İşleme / boya",
               "en": "Machining / paint",
-              "ar": "تشغيل / طلاء"
+              "ar": "تشغيل / طلاء",
+              "de": "Verarbeitung / Lackierung",
+              "ru": "Обработка / покраска"
             }
           },
           {
@@ -2511,19 +3073,25 @@
             "name": {
               "tr": "Diğer",
               "en": "Other",
-              "ar": "أخرى"
+              "ar": "أخرى",
+              "de": "Sonstiges",
+              "ru": "Другое"
             }
           }
         ],
         "kvkkText": {
           "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
           "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
-          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب.",
+          "de": "Ich habe die Datenschutzerklärung zur Verarbeitung meiner personenbezogenen Daten zur Beantwortung dieser Anfrage gelesen.",
+          "ru": "Я ознакомился(лась) с уведомлением о конфиденциальности об обработке моих персональных данных для ответа на этот запрос."
         },
         "kvkkLinkText": {
           "tr": "Aydınlatma metni",
           "en": "Privacy notice",
-          "ar": "إشعار الخصوصية"
+          "ar": "إشعار الخصوصية",
+          "de": "Datenschutzhinweis",
+          "ru": "Информация об обработке данных"
         },
         "kvkkHref": "kisiselveriler"
       },
@@ -2566,68 +3134,92 @@
         "ust": {
           "tr": "Katalog",
           "en": "Catalogue",
-          "ar": "الكتالوج"
+          "ar": "الكتالوج",
+          "de": "Katalog",
+          "ru": "Каталог"
         },
         "baslik": {
           "tr": "Parça kataloğunu indirin",
           "en": "Download the parts catalogue",
-          "ar": "نزّل كتالوج القطع"
+          "ar": "نزّل كتالوج القطع",
+          "de": "Teilekatalog herunterladen",
+          "ru": "Скачать каталог деталей"
         },
         "metin": {
           "tr": "Malzeme sınıfları, ağırlık aralıkları ve işleme toleransları tek dosyada. Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Material grades, weight ranges and machining tolerances in one file. Figures and certificates are fictional (DEMO).",
-          "ar": "درجات المواد ونطاقات الأوزان وتفاوتات التشغيل في ملف واحد. الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "درجات المواد ونطاقات الأوزان وتفاوتات التشغيل في ملف واحد. الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Materialgüten, Gewichtsbereiche und Bearbeitungstoleranzen in einer Datei. Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Марки стали, диапазоны весов и допуски обработки в одном файле. Цифры и сертификаты вымышленные (DEMO)."
         },
         "btn1Text": {
           "tr": "Teklif iste",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "btn1Url": "iletisim",
         "btn2Text": {
           "tr": "Üretim hattı",
           "en": "Production line",
-          "ar": "خط الإنتاج"
+          "ar": "خط الإنتاج",
+          "de": "Produktionslinie",
+          "ru": "Производственная линия"
         },
         "btn2Url": "hizmetler",
         "img": "/img/sanayi-makine-3.webp",
         "alt": {
           "tr": "İşlenmiş metal parça",
           "en": "A machined metal part",
-          "ar": "قطعة معدنية مشغولة"
+          "ar": "قطعة معدنية مشغولة",
+          "de": "Bearbeitetes Metallteil",
+          "ru": "Обработанная металлическая деталь"
         },
         "ikon": "menu_book",
         "not": {
           "tr": "Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Figures and certificates are fictional (DEMO).",
-          "ar": "الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Цифры и сертификаты являются вымышленными (DEMO)."
         },
         "number": "903520843131",
         "numberText": "+90 352 084 31 31",
         "waLabel": {
           "tr": "WhatsApp’tan yazın",
           "en": "Write on WhatsApp",
-          "ar": "راسلنا عبر واتساب"
+          "ar": "راسلنا عبر واتساب",
+          "de": "Per WhatsApp schreiben",
+          "ru": "Написать в WhatsApp"
         },
         "waTitle": {
           "tr": "Hızlı soru",
           "en": "Quick question",
-          "ar": "سؤال سريع"
+          "ar": "سؤال سريع",
+          "de": "Schnelle Frage",
+          "ru": "Быстрый вопрос"
         },
         "waMessage": {
           "tr": "Merhaba Demkar, döküm parça teklifi istiyorum.",
           "en": "Hello Demkar, I would like a quote for cast parts.",
-          "ar": "مرحبًا ديمكار، أودّ عرض سعر لقطع مصبوبة."
+          "ar": "مرحبًا ديمكار، أودّ عرض سعر لقطع مصبوبة.",
+          "de": "Hallo Demkar, ich möchte ein Angebot für Gussteile.",
+          "ru": "Здравствуйте, Demkar, я хотел бы получить смету на литьевые детали."
         },
         "hours": {
           "tr": "Pzt–Cum 08:00 – 17:30 · Cmt 08:00 – 12:30",
           "en": "Mon–Fri 08:00 – 17:30 · Sat 08:00 – 12:30",
-          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30"
+          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 08:00 – 12:30",
+          "de": "Mo–Fr 08:00 – 17:30 · Sa 08:00 – 12:30",
+          "ru": "Пн–Пт 08:00 – 17:30 · Сб 08:00 – 12:30"
         },
         "hoursLabel": {
           "tr": "Satış saatleri",
           "en": "Sales hours",
-          "ar": "ساعات المبيعات"
+          "ar": "ساعات المبيعات",
+          "de": "Verkaufszeiten",
+          "ru": "Часы продаж"
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "yaziRenk": "var(--mx-site-text, #111318)",
@@ -2643,12 +3235,16 @@
         "dosyaAd": {
           "tr": "Demkar parça kataloğu (DEMO)",
           "en": "Demkar parts catalogue (DEMO)",
-          "ar": "كتالوج قطع ديمكار (DEMO)"
+          "ar": "كتالوج قطع ديمكار (DEMO)",
+          "de": "Demkar-Teilekatalog (DEMO)",
+          "ru": "Каталог деталей Demkar (ДЕМО)"
         },
         "dosyaBilgi": {
           "tr": "PDF · 1 sayfa · örnek dosya",
           "en": "PDF · 1 page · sample file",
-          "ar": "PDF · صفحة واحدة · ملف نموذجي"
+          "ar": "PDF · صفحة واحدة · ملف نموذجي",
+          "de": "PDF · 1 Seite · Beispieldatei",
+          "ru": "PDF · 1 страница · пример файла"
         },
         "bgcolor": "var(--mx-site-surface, #f6f7f9)",
         "color": "var(--mx-site-text, #111318)",
@@ -2656,22 +3252,30 @@
         "title": {
           "tr": "Ürün kataloğu",
           "en": "Product catalogue",
-          "ar": "كتالوج المنتجات"
+          "ar": "كتالوج المنتجات",
+          "de": "Produktkatalog",
+          "ru": "Каталог товаров"
         },
         "btn1Label": {
           "tr": "Teklif iste",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "btn2Label": {
           "tr": "Üretim",
           "en": "Production",
-          "ar": "الإنتاج"
+          "ar": "الإنتاج",
+          "de": "Produktion",
+          "ru": "Производство"
         },
         "description": {
           "tr": "Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Figures and certificates are fictional (DEMO).",
-          "ar": "الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Цифры и сертификаты являются вымышленными (DEMO)."
         }
       },
       "data": [],
@@ -2716,19 +3320,25 @@
         "hakkinda": {
           "tr": "Kayseri OSB’de sfero ve gri döküm, CNC işleme ve boyalı sevkiyat yapan kurgusal demo dökümhane.",
           "en": "A fictional demo foundry for ductile and grey iron, CNC machining and painted dispatch in Kayseri.",
-          "ar": "مسبك تجريبي افتراضي للحديد المرن والرمادي والتشغيل والشحن المطلي في قيصري."
+          "ar": "مسبك تجريبي افتراضي للحديد المرن والرمادي والتشغيل والشحن المطلي في قيصري.",
+          "de": "Fiktive Demo-Gießerei in Kayseri OSB für Sphäro- und Grauguss, CNC-Bearbeitung und lackierte Lieferung.",
+          "ru": "Вымышленная демо-литейная в Kayseri OSB: сфероидитный и серый чугун, обработка на станках с ЧПУ и доставка с покраской."
         },
         "tel": "+90 352 084 31 31",
         "eposta": "teklif@demkarmetal.example",
         "adres": {
           "tr": "Kayseri OSB 12. Cadde No: 7, Melikgazi, Kayseri (kurgusal adres)",
           "en": "7 Twelfth Avenue, Kayseri Organized Industrial Zone, Melikgazi, Kayseri (fictional address)",
-          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)"
+          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)",
+          "de": "12. Straße Nr. 7, Kayseri Organisierte Industriezone, Melikgazi, Kayseri (fiktive Adresse)",
+          "ru": "12-я улица, д. 7, Организованная промышленная зона Кайсери, Меликгези, Кайсери (фиктивный адрес)"
         },
         "cta_ad": {
           "tr": "Teklif iste",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot",
+          "ru": "Запрос"
         },
         "cta_url": "iletisim",
         "rightsText": "",
@@ -2752,12 +3362,16 @@
         "about": {
           "tr": "Demkar Metal demo temadır; firma, rakamlar ve belgeler kurgusaldır.",
           "en": "Demkar Metal is a demo theme; the company, figures and certificates are fictional.",
-          "ar": "ديمكار ميتال قالب تجريبي؛ الشركة والأرقام والشهادات افتراضية."
+          "ar": "ديمكار ميتال قالب تجريبي؛ الشركة والأرقام والشهادات افتراضية.",
+          "de": "Demkar Metal ist ein Demo-Thema; Firma, Zahlen und Dokumente sind fiktiv.",
+          "ru": "Demkar Metal — демо-тема; компания, цифры и документы вымышленные."
         },
         "address": {
           "tr": "Kayseri OSB 12. Cadde No: 7, Melikgazi, Kayseri (kurgusal adres)",
           "en": "7 Twelfth Avenue, Kayseri Organized Industrial Zone, Melikgazi, Kayseri (fictional address)",
-          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)"
+          "ar": "المنطقة الصناعية المنظمة في قيصري، الشارع 12 رقم 7، مليك غازي، قيصري (عنوان افتراضي)",
+          "de": "12. Straße Nr. 7, Kayseri Organisierte Industriezone, Melikgazi, Kayseri (fiktive Adresse)",
+          "ru": "12-я улица, д. 7, Организованная промышленная зона Кайсери, Меликгези, Кайсери (фиктивный адрес)"
         },
         "phone": "+90 352 084 31 31",
         "email": "teklif@demkarmetal.example",
@@ -2767,7 +3381,9 @@
             "name": {
               "tr": "KVKK",
               "en": "Privacy (KVKK)",
-              "ar": "حماية البيانات"
+              "ar": "حماية البيانات",
+              "de": "Datenschutz (KVKK)",
+              "ru": "Закон о защите данных (KVKK)"
             },
             "href": "kisiselveriler"
           },
@@ -2775,7 +3391,9 @@
             "name": {
               "tr": "Gizlilik",
               "en": "Privacy policy",
-              "ar": "سياسة الخصوصية"
+              "ar": "سياسة الخصوصية",
+              "de": "Datenschutz",
+              "ru": "Конфиденциальность"
             },
             "href": "gizlilikpolitikasi"
           },
@@ -2783,7 +3401,9 @@
             "name": {
               "tr": "Yasal uyarı",
               "en": "Legal notice",
-              "ar": "إشعار قانوني"
+              "ar": "إشعار قانوني",
+              "de": "Rechtlicher Hinweis",
+              "ru": "Правовое уведомление"
             },
             "href": "yasaluyari"
           }
@@ -2791,24 +3411,32 @@
         "nlTitle": {
           "tr": "Haberdar olun",
           "en": "Stay informed",
-          "ar": "ابقَ على اطلاع"
+          "ar": "ابقَ على اطلاع",
+          "de": "Bleiben Sie informiert",
+          "ru": "Будьте в курсе"
         },
         "nlText": {
           "tr": "Yeni duyurular için e-posta bırakın. Bu demo sitede veri saklanmaz.",
           "en": "Leave your e-mail for new announcements. No data is stored on this demo site.",
-          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "ar": "اترك بريدك الإلكتروني للإعلانات الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي.",
+          "de": "Hinterlassen Sie Ihre E-Mail für neue Ankündigungen. Auf dieser Demo-Website werden keine Daten gespeichert.",
+          "ru": "Оставьте e-mail, чтобы получать новые анонсы. На этом демо-сайте данные не сохраняются."
         },
         "nlKvkk": {
           "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
           "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
-          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت.",
+          "de": "Ihre E-Mail-Adresse wird nur für den Versand von Ankündigungen verwendet; Sie können sich jederzeit abmelden.",
+          "ru": "Ваш e-mail используется только для рассылки объявлений; вы можете отписаться в любой момент."
         },
         "services": [
           {
             "name": {
               "tr": "Üretim hattı",
               "en": "Production line",
-              "ar": "خط الإنتاج"
+              "ar": "خط الإنتاج",
+              "de": "Produktionslinie",
+              "ru": "Производственная линия"
             },
             "href": "hizmetler"
           },
@@ -2816,7 +3444,9 @@
             "name": {
               "tr": "Referanslar",
               "en": "References",
-              "ar": "المرجعيات"
+              "ar": "المرجعيات",
+              "de": "Referenzen",
+              "ru": "Референсы"
             },
             "href": "referanslar"
           },
@@ -2824,7 +3454,9 @@
             "name": {
               "tr": "Teklif iste",
               "en": "Request a quote",
-              "ar": "اطلب عرض سعر"
+              "ar": "اطلب عرض سعر",
+              "de": "Angebot",
+              "ru": "Запрос"
             },
             "href": "iletisim"
           }
@@ -2834,7 +3466,9 @@
             "days": {
               "tr": "Pzt–Cum",
               "en": "Mon–Fri",
-              "ar": "الاثنين–الجمعة"
+              "ar": "الاثنين–الجمعة",
+              "de": "Mo–Fr",
+              "ru": "Пн–Пт"
             },
             "time": "08:00 – 17:30"
           },
@@ -2842,7 +3476,9 @@
             "days": {
               "tr": "Cumartesi",
               "en": "Saturday",
-              "ar": "السبت"
+              "ar": "السبت",
+              "de": "Samstag",
+              "ru": "Суббота"
             },
             "time": "08:00 – 12:30"
           }
@@ -2850,12 +3486,16 @@
         "title_services": {
           "tr": "Hızlı bağlantılar",
           "en": "Quick links",
-          "ar": "روابط سريعة"
+          "ar": "روابط سريعة",
+          "de": "Schnellzugriff",
+          "ru": "Быстрые ссылки"
         },
         "title_hours": {
           "tr": "Çalışma saatleri",
           "en": "Working hours",
-          "ar": "ساعات العمل"
+          "ar": "ساعات العمل",
+          "de": "Öffnungszeiten",
+          "ru": "Часы работы"
         }
       },
       "data": [],
@@ -2904,17 +3544,23 @@
         "ust": {
           "tr": "Üretim hattı",
           "en": "Production line",
-          "ar": "خط الإنتاج"
+          "ar": "خط الإنتاج",
+          "de": "Produktionslinie",
+          "ru": "Производственная линия"
         },
         "baslik": {
           "tr": "Bant üzerinde altı istasyon",
           "en": "Six stations on the line",
-          "ar": "ست محطات على الخط"
+          "ar": "ست محطات على الخط",
+          "de": "Sechs Stationen auf der Linie",
+          "ru": "Шесть станций на линии"
         },
         "metin": {
           "tr": "Her parti bu sırayla ilerler; süreler tipik bir 20 kg parça içindir. Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "Every batch moves in this order; times are for a typical 20 kg part. Figures and certificates are fictional (DEMO).",
-          "ar": "تسير كل دفعة بهذا الترتيب؛ والأزمنة لقطعة نموذجية وزنها 20 كغ. الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "تسير كل دفعة بهذا الترتيب؛ والأزمنة لقطعة نموذجية وزنها 20 كغ. الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Jede Charge folgt dieser Reihenfolge; Zeiten gelten für ein typisches 20-kg-Teil. Zahlen und Zertifikate sind fiktiv (DEMO).",
+          "ru": "Каждая партия проходит в этом порядке; времена указаны для типичной детали 20 кг. Цифры и сертификаты вымышлены (DEMO)."
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -2931,7 +3577,9 @@
         "adimEtiket": {
           "tr": "İstasyon {n}",
           "en": "Station {n}",
-          "ar": "المحطة {n}"
+          "ar": "المحطة {n}",
+          "de": "Station {n}",
+          "ru": "Станция {n}"
         }
       },
       "data": [
@@ -2940,17 +3588,23 @@
           "baslik": {
             "tr": "Model ve kalıp",
             "en": "Pattern and mould",
-            "ar": "النموذج والقالب"
+            "ar": "النموذج والقالب",
+            "de": "Modell und Schnittmuster",
+            "ru": "Модель и выкройка"
           },
           "metin": {
             "tr": "Teknik resimden model; kum kalıp hazırlığı.",
             "en": "Pattern from the drawing; sand mould preparation.",
-            "ar": "نموذج من الرسم الفني وتحضير قالب الرمل."
+            "ar": "نموذج من الرسم الفني وتحضير قالب الرمل.",
+            "de": "Modell nach technischer Zeichnung; Vorbereitung der Sandform.",
+            "ru": "Модель по техническому чертежу; подготовка песчаной формы."
           },
           "sure": {
             "tr": "2 gün",
             "en": "2 days",
-            "ar": "يومان"
+            "ar": "يومان",
+            "de": "2 Tage",
+            "ru": "2 дня"
           }
         },
         {
@@ -2958,17 +3612,23 @@
           "baslik": {
             "tr": "Ergitme",
             "en": "Melting",
-            "ar": "الصهر"
+            "ar": "الصهر",
+            "de": "Schmelzen",
+            "ru": "Плавление"
           },
           "metin": {
             "tr": "İndüksiyon ocağında alaşım; spektrometre kontrolü.",
             "en": "Alloying in the induction furnace; spectrometer check.",
-            "ar": "السبك في فرن الحث مع فحص بالمطياف."
+            "ar": "السبك في فرن الحث مع فحص بالمطياف.",
+            "de": "Legierung im Induktionsofen; Spektrometer-Kontrolle.",
+            "ru": "Легирование в индукционной печи; контроль спектрометром."
           },
           "sure": {
             "tr": "90 dk",
             "en": "90 min",
-            "ar": "90 دقيقة"
+            "ar": "90 دقيقة",
+            "de": "90 Min.",
+            "ru": "90 мин."
           }
         },
         {
@@ -2976,17 +3636,23 @@
           "baslik": {
             "tr": "Döküm",
             "en": "Pouring",
-            "ar": "الصب"
+            "ar": "الصب",
+            "de": "Gießen",
+            "ru": "Литьё"
           },
           "metin": {
             "tr": "Otomatik döküm potası, kayıtlı sıcaklık.",
             "en": "Automatic pouring ladle with logged temperature.",
-            "ar": "مغرفة صب آلية مع تسجيل الحرارة."
+            "ar": "مغرفة صب آلية مع تسجيل الحرارة.",
+            "de": "Automatischer Gießlöffel mit protokollierter Temperatur.",
+            "ru": "Автоматический ковш для литья с записанной температурой."
           },
           "sure": {
             "tr": "15 dk",
             "en": "15 min",
-            "ar": "15 دقيقة"
+            "ar": "15 دقيقة",
+            "de": "15 Min.",
+            "ru": "15 мин"
           }
         },
         {
@@ -2994,17 +3660,23 @@
           "baslik": {
             "tr": "Taşlama",
             "en": "Fettling",
-            "ar": "التنظيف والجلخ"
+            "ar": "التنظيف والجلخ",
+            "de": "Schleifen",
+            "ru": "Шлифовка"
           },
           "metin": {
             "tr": "Yolluk kesme, kumlama ve çapak alma.",
             "en": "Runner cutting, shot blasting and deburring.",
-            "ar": "قص المجاري والسفع وإزالة الزوائد."
+            "ar": "قص المجاري والسفع وإزالة الزوائد.",
+            "de": "Anguss abtrennen, Sandstrahlen und Entgraten.",
+            "ru": "Отрезка литников, пескоструйная обработка и удаление заусенцев."
           },
           "sure": {
             "tr": "1 sa",
             "en": "1 h",
-            "ar": "ساعة"
+            "ar": "ساعة",
+            "de": "1 Std.",
+            "ru": "1 ч"
           }
         },
         {
@@ -3012,17 +3684,23 @@
           "baslik": {
             "tr": "CNC işleme",
             "en": "CNC machining",
-            "ar": "تشغيل CNC"
+            "ar": "تشغيل CNC",
+            "de": "CNC-Bearbeitung",
+            "ru": "CNC-обработка"
           },
           "metin": {
             "tr": "Fikstürde işleme; ilk parça ölçüm raporu.",
             "en": "Machining on fixtures; first-article report.",
-            "ar": "تشغيل على المثبّتات وتقرير القطعة الأولى."
+            "ar": "تشغيل على المثبّتات وتقرير القطعة الأولى.",
+            "de": "Bearbeitung in der Vorrichtung; Bericht über das Erstteil.",
+            "ru": "Обработка в приспособлении; отчет по первому изделию."
           },
           "sure": {
             "tr": "2 sa",
             "en": "2 h",
-            "ar": "ساعتان"
+            "ar": "ساعتان",
+            "de": "2 Std.",
+            "ru": "2 ч"
           }
         },
         {
@@ -3030,17 +3708,23 @@
           "baslik": {
             "tr": "Kalite ve sevk",
             "en": "Quality and dispatch",
-            "ar": "الجودة والشحن"
+            "ar": "الجودة والشحن",
+            "de": "Qualität und Versand",
+            "ru": "Качество и отгрузка"
           },
           "metin": {
             "tr": "Sertlik ve ölçü kontrolü, boya, etiketli sandık.",
             "en": "Hardness and dimensional checks, paint, labelled crate.",
-            "ar": "فحص الصلادة والأبعاد والطلاء وصندوق موسوم."
+            "ar": "فحص الصلادة والأبعاد والطلاء وصندوق موسوم.",
+            "de": "Härte- und Maßkontrolle, Lackierung, beschriftete Kiste.",
+            "ru": "Контроль твёрдости и размеров, покраска, ящик с этикеткой."
           },
           "sure": {
             "tr": "1 gün",
             "en": "1 day",
-            "ar": "يوم واحد"
+            "ar": "يوم واحد",
+            "de": "1 Tag",
+            "ru": "1 день"
           }
         }
       ],
@@ -3086,17 +3770,23 @@
         "ust": {
           "tr": "Büyüme",
           "en": "Growth",
-          "ar": "النمو"
+          "ar": "النمو",
+          "de": "Wachstum",
+          "ru": "Рост"
         },
         "baslik": {
           "tr": "Ton ton büyüyen bir tesis",
           "en": "A plant growing tonne by tonne",
-          "ar": "منشأة تنمو طنًا بعد طن"
+          "ar": "منشأة تنمو طنًا بعد طن",
+          "de": "Eine Anlage, die Tonne für Tonne wächst",
+          "ru": "Объект, растущий тонна за тонной"
         },
         "metin": {
           "tr": "Eğri yıllık döküm tonajını gösterir. Rakamlar ve belgeler kurgusaldır (DEMO).",
           "en": "The curve shows annual casting tonnage. Figures and certificates are fictional (DEMO).",
-          "ar": "يُظهر المنحنى حمولة الصب السنوية. الأرقام والشهادات افتراضية (DEMO)."
+          "ar": "يُظهر المنحنى حمولة الصب السنوية. الأرقام والشهادات افتراضية (DEMO).",
+          "de": "Die Kurve zeigt die jährliche Gusstonnage. Zahlen und Dokumente sind fiktiv (DEMO).",
+          "ru": "Кривая показывает годовой тоннаж отливок. Цифры и документы вымышленные (DEMO)."
         },
         "bg": "var(--mx-site-surface, #f6f7f9)",
         "text": "var(--mx-site-text, #111318)",
@@ -3118,18 +3808,24 @@
           "birim": {
             "tr": "ton",
             "en": "tonnes",
-            "ar": "طن"
+            "ar": "طن",
+            "de": "Tonne",
+            "ru": "тонна"
           },
           "ikon": "flag",
           "baslik": {
             "tr": "Kuruluş",
             "en": "Founded",
-            "ar": "التأسيس"
+            "ar": "التأسيس",
+            "de": "Gründung",
+            "ru": "Основание"
           },
           "metin": {
             "tr": "Tek ocaklı gri döküm atölyesi.",
             "en": "A single-furnace grey iron workshop.",
-            "ar": "ورشة حديد رمادي بفرن واحد."
+            "ar": "ورشة حديد رمادي بفرن واحد.",
+            "de": "Graugusswerkstatt mit nur einem Ofen.",
+            "ru": "Мастерская серого чугуна с одной печью."
           }
         },
         {
@@ -3138,18 +3834,24 @@
           "birim": {
             "tr": "ton",
             "en": "tonnes",
-            "ar": "طن"
+            "ar": "طن",
+            "de": "Tonne",
+            "ru": "тонна"
           },
           "ikon": "factory",
           "baslik": {
             "tr": "Sfero hattı",
             "en": "Ductile line",
-            "ar": "خط الحديد المرن"
+            "ar": "خط الحديد المرن",
+            "de": "Sphäro-Linie",
+            "ru": "Сферолиния"
           },
           "metin": {
             "tr": "Yatay kalıplama hattı devreye girdi.",
             "en": "The horizontal moulding line started.",
-            "ar": "بدأ تشغيل خط القولبة الأفقي."
+            "ar": "بدأ تشغيل خط القولبة الأفقي.",
+            "de": "Die horizontale Formlinie ist in Betrieb gegangen.",
+            "ru": "Горизонтальная формовочная линия запущена."
           }
         },
         {
@@ -3158,18 +3860,24 @@
           "birim": {
             "tr": "ton",
             "en": "tonnes",
-            "ar": "طن"
+            "ar": "طن",
+            "de": "Tonne",
+            "ru": "тонна"
           },
           "ikon": "precision_manufacturing",
           "baslik": {
             "tr": "İşleme bölümü",
             "en": "Machining shop",
-            "ar": "قسم التشغيل"
+            "ar": "قسم التشغيل",
+            "de": "Bearbeitungsabteilung",
+            "ru": "Цех обработки"
           },
           "metin": {
             "tr": "Dört CNC tezgâhla işlenmiş teslim.",
             "en": "Machined delivery with four CNC machines.",
-            "ar": "تسليم مشغول بأربع آلات CNC."
+            "ar": "تسليم مشغول بأربع آلات CNC.",
+            "de": "Lieferung, gefertigt auf vier CNC-Maschinen.",
+            "ru": "Поставка, изготовленная на четырёх станках с ЧПУ."
           }
         },
         {
@@ -3178,18 +3886,24 @@
           "birim": {
             "tr": "ton",
             "en": "tonnes",
-            "ar": "طن"
+            "ar": "طن",
+            "de": "Tonne",
+            "ru": "тонна"
           },
           "ikon": "science",
           "baslik": {
             "tr": "Kalite laboratuvarı",
             "en": "Quality laboratory",
-            "ar": "مختبر الجودة"
+            "ar": "مختبر الجودة",
+            "de": "Qualitätslabor",
+            "ru": "Лаборатория качества"
           },
           "metin": {
             "tr": "Spektrometre ve 3B ölçüm cihazı.",
             "en": "Spectrometer and 3D measuring machine.",
-            "ar": "مطياف وجهاز قياس ثلاثي الأبعاد."
+            "ar": "مطياف وجهاز قياس ثلاثي الأبعاد.",
+            "de": "Spektrometer und 3D-Messgerät.",
+            "ru": "Спектрометр и 3D-измерительный прибор."
           }
         },
         {
@@ -3198,18 +3912,24 @@
           "birim": {
             "tr": "ton",
             "en": "tonnes",
-            "ar": "طن"
+            "ar": "طن",
+            "de": "Tonne",
+            "ru": "тонна"
           },
           "ikon": "solar_power",
           "baslik": {
             "tr": "Çatı GES",
             "en": "Rooftop solar",
-            "ar": "طاقة شمسية على السطح"
+            "ar": "طاقة شمسية على السطح",
+            "de": "Dach-PV-Anlage",
+            "ru": "Кровельная СЭС"
           },
           "metin": {
             "tr": "İşleme bölümünün enerjisi çatıdan.",
             "en": "The machining shop runs on rooftop power.",
-            "ar": "قسم التشغيل يعمل بطاقة السطح."
+            "ar": "قسم التشغيل يعمل بطاقة السطح.",
+            "de": "Die Energie der Verarbeitungsabteilung kommt vom Dach.",
+            "ru": "Энергия цеха переработки поступает с крыши."
           }
         }
       ],

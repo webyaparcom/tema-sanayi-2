@@ -2,7 +2,9 @@
   "name": {
     "tr": "Kurumsal",
     "en": "Company",
-    "ar": "الشركة"
+    "ar": "الشركة",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "status": "play",
   "category": "",
@@ -24,7 +26,9 @@
   "description": {
     "tr": "2008’den bugüne büyüme, ekip ve dönem karnesi (kurgusal).",
     "en": "Growth since 2008, the team and the period scorecard (fictional).",
-    "ar": "النمو منذ 2008 والفريق وبطاقة أداء الفترة (افتراضي)."
+    "ar": "النمو منذ 2008 والفريق وبطاقة أداء الفترة (افتراضي).",
+    "de": "Wachstum, Team und Periodenbilanz seit 2008 (fiktiv).",
+    "ru": "Рост, команда и итоги периодов с 2008 года (вымышленно)."
   },
   "spot": {
     "tr": "",
@@ -35,12 +39,16 @@
   "title": {
     "tr": "Kurumsal",
     "en": "Company",
-    "ar": "الشركة"
+    "ar": "الشركة",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T18:08:54.068Z",

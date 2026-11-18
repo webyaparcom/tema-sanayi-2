@@ -5,12 +5,16 @@
       "name": {
         "tr": "Üretim",
         "en": "Production",
-        "ar": "الإنتاج"
+        "ar": "الإنتاج",
+        "de": "Produktion",
+        "ru": "Производство"
       },
       "description": {
         "tr": "Döküm, işleme, boya ve sevkiyat kabiliyetleri.",
         "en": "Casting, machining, paint and dispatch capabilities.",
-        "ar": "قدرات الصب والتشغيل والطلاء والشحن."
+        "ar": "قدرات الصب والتشغيل والطلاء والشحن.",
+        "de": "Fähigkeiten in Gießen, Bearbeitung, Lackierung und Versand.",
+        "ru": "Возможности литья, обработки, окраски и отгрузки."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -31,7 +35,9 @@
       "name": {
         "tr": "Kurumsal",
         "en": "Company",
-        "ar": "الشركة"
+        "ar": "الشركة",
+        "de": "Über uns",
+        "ru": "О нас"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -53,7 +59,9 @@
       "description": {
         "tr": "2008’den bugüne büyüme, ekip ve dönem karnesi (kurgusal).",
         "en": "Growth since 2008, the team and the period scorecard (fictional).",
-        "ar": "النمو منذ 2008 والفريق وبطاقة أداء الفترة (افتراضي)."
+        "ar": "النمو منذ 2008 والفريق وبطاقة أداء الفترة (افتراضي).",
+        "de": "Wachstum, Team und Periodenbilanz seit 2008 (fiktiv).",
+        "ru": "Рост, команда и итоги периодов с 2008 года (вымышленно)."
       }
     },
     {
@@ -61,12 +69,16 @@
       "name": {
         "tr": "Ekip",
         "en": "Team",
-        "ar": "الفريق"
+        "ar": "الفريق",
+        "de": "Team",
+        "ru": "Команда"
       },
       "description": {
         "tr": "Sizi karşılayan çalışanlarımız.",
         "en": "The staff who welcomes you.",
-        "ar": "الموظفون الذين يستقبلونكم."
+        "ar": "الموظفون الذين يستقبلونكم.",
+        "de": "Unsere Mitarbeiter, die Sie empfangen.",
+        "ru": "Наши сотрудники, которые вас встретят."
       },
       "path": "ekip",
       "icon": "groups",
@@ -87,12 +99,16 @@
       "name": {
         "tr": "Referanslar",
         "en": "References",
-        "ar": "المرجعيات"
+        "ar": "المرجعيات",
+        "de": "Referenzen",
+        "ru": "Референсы"
       },
       "description": {
         "tr": "İş ortaklarımız ve müşteri yorumlarımız (kurgusal).",
         "en": "Our partners and customer reviews (fictional).",
-        "ar": "شركاؤنا وتقييمات عملائنا (افتراضية)."
+        "ar": "شركاؤنا وتقييمات عملائنا (افتراضية).",
+        "de": "Unsere Geschäftspartner und Kundenstimmen (fiktiv).",
+        "ru": "Наши деловые партнёры и отзывы клиентов (вымышленные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -112,7 +128,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -133,7 +151,9 @@
       "description": {
         "tr": "Teklif çizelgesi, adres ve çalışma saatleri.",
         "en": "Quote sheet, address and working hours.",
-        "ar": "جدول طلب العرض والعنوان وساعات العمل."
+        "ar": "جدول طلب العرض والعنوان وساعات العمل.",
+        "de": "Angebotsblatt, Adresse und Arbeitszeiten.",
+        "ru": "Лист с цитатой, адрес и часы работы."
       }
     }
   ],
