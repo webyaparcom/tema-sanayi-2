@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>Her partide spektrometre, sertlik ve ölçü kontrolü; kayıtlar müşteriyle paylaşılır.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>Spectrometer, hardness and dimensional checks on every batch; records are shared with the customer.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>فحص بالمطياف والصلادة والأبعاد لكل دفعة، وتُشارك السجلات مع العميل.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>فحص بالمطياف والصلادة والأبعاد لكل دفعة، وتُشارك السجلات مع العميل.</p>",
+    "de": "<h2>Unsere Qualitätsrichtlinie</h2>\n<p>Spektrometer-, Härte- und Maßkontrollen bei jeder Charge; Aufzeichnungen werden mit dem Kunden geteilt.</p>",
+    "ru": "<h2>Наша политика качества</h2>\n<p>Контроль спектрометром, твёрдости и размеров каждой партии; записи передаются клиенту.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T18:02:07.811Z",
   "update": "2026-11-16T18:08:54.094Z",

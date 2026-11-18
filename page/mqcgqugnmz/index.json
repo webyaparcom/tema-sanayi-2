@@ -3,17 +3,23 @@
   "name": {
     "tr": "Üretim",
     "en": "Production",
-    "ar": "الإنتاج"
+    "ar": "الإنتاج",
+    "de": "Produktion",
+    "ru": "Производство"
   },
   "description": {
     "tr": "Döküm, işleme, boya ve sevkiyat kabiliyetleri.",
     "en": "Casting, machining, paint and dispatch capabilities.",
-    "ar": "قدرات الصب والتشغيل والطلاء والشحن."
+    "ar": "قدرات الصب والتشغيل والطلاء والشحن.",
+    "de": "Fähigkeiten in Gießen, Bearbeitung, Lackierung und Versand.",
+    "ru": "Возможности литья, обработки, окраски и отгрузки."
   },
   "keyword": {
     "tr": "Üretim",
     "en": "Production",
-    "ar": "الإنتاج"
+    "ar": "الإنتاج",
+    "de": "Produktion",
+    "ru": "Производство"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -34,7 +40,9 @@
   "title": {
     "tr": "Üretim",
     "en": "Production",
-    "ar": "الإنتاج"
+    "ar": "الإنتاج",
+    "de": "Produktion",
+    "ru": "Производство"
   },
   "date": "2026-11-16T18:02:07.967Z",
   "update": "2026-11-16T18:08:54.062Z"

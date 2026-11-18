@@ -4,12 +4,16 @@
   "description": {
     "tr": "Demkar Metal: Kayseri’de sfero ve gri döküm, CNC işleme ve boyalı sevkiyat. Tarım makinesi, pompa ve vana üreticilerine seri parça. Demo site; rakamlar kurgusaldır.",
     "en": "Demkar Metal: ductile and grey iron casting, CNC machining and painted dispatch in Kayseri. Series parts for agricultural machinery, pump and valve makers. Demo site; figures are fictional.",
-    "ar": "ديمكار ميتال: صب الحديد المرن والرمادي والتشغيل بالتحكم الرقمي والشحن المطلي في قيصري. قطع متسلسلة لمصنعي الآلات الزراعية والمضخات والصمامات. موقع تجريبي؛ الأرقام افتراضية."
+    "ar": "ديمكار ميتال: صب الحديد المرن والرمادي والتشغيل بالتحكم الرقمي والشحن المطلي في قيصري. قطع متسلسلة لمصنعي الآلات الزراعية والمضخات والصمامات. موقع تجريبي؛ الأرقام افتراضية.",
+    "de": "Demkar Metal: Sphäro- und Grauguss, CNC-Bearbeitung und lackierter Versand in Kayseri. Serienteile für Hersteller von Landmaschinen, Pumpen und Armaturen. Demo-Website; die Zahlen sind fiktiv.",
+    "ru": "Demkar Metal: шаровидный и серый чугун, ЧПУ-обработка и отгрузка в окрашенном виде в Кайсери. Серийные детали для производителей сельхозтехники, насосов и арматуры. Демо-сайт; цифры условные."
   },
   "keyword": {
     "tr": "sfero döküm, gri döküm, cnc işleme, döküm parça, dökümhane, kayseri osb",
     "en": "ductile iron casting, grey iron casting, cnc machining, cast parts, foundry, kayseri",
-    "ar": "صب الحديد المرن، صب الحديد الرمادي، تشغيل CNC، قطع مصبوبة، مسبك، قيصري"
+    "ar": "صب الحديد المرن، صب الحديد الرمادي، تشغيل CNC، قطع مصبوبة، مسبك، قيصري",
+    "de": "Sphäroguss, Grauguss, CNC-Bearbeitung, Gussteil, Gießerei, Kayseri OSB",
+    "ru": "чугун с шаровидным графитом, серый чугун, ЧПУ-обработка, литые детали, литейный завод, Кайсери OSB"
   },
   "category": "Kurumsal",
   "name": "Demkar Metal",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,
